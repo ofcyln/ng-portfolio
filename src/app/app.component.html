@@ -19,7 +19,7 @@
                     <br> Just click on the work that you want to review.
                 </p>
 
-                <ul class="margin-top-md">
+                <section class="margin-top-md">
                     <button class="menu-element" data-filter=".mail">MAILING</button>
                     <button class="menu-element" data-filter=".landing-page">LANDING PAGE</button>
                     <button class="menu-element" data-filter=".micro">MICRO SITE</button>
@@ -27,15 +27,31 @@
                     <button class="menu-element" data-filter=".html">HTML</button>
                     <button class="menu-element" data-filter=".wordpress">WORDPRESS TEMPLATE</button>
                     <button class="menu-element active" data-filter="*">ALL</button>
-                </ul>
+                </section>
 
-                <div class="portfolio-grid">
-                    <div
+                <article class="portfolio-grid">
+                    <section
                         #isotopeContainer
-                        class="portfolio-wrap">
+                        class="portfolio-wrap row">
+                        <div
+                            *ngFor="let project of projects"
+                            [ngClass]="project.type"
+                            class="card-image item-absorber col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                            <a
+                               class="item-link"
+                               [href]="project.urlLink"
+                               target="_blank">
+                                <img class="img-area" [src]="project.imageLink" />
 
-                    </div>
-                </div>
+                                <div class="item-paragraph">
+                                    <p>
+                                        {{ project.nameEN }}
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </article>
             </section>
         </main>
     </article>

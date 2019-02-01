@@ -4,12 +4,132 @@
         overflow-y: auto;
         position: relative;
         background-color: #f7f7f7;
+
         &.full-height {
             height: calc(100vh - 1px);
         }
     }
+
     main {
-        max-width: 900px;
+        max-width: 1024px;
         margin: 45px auto 0;
     }
+
+    .page-header {
+        padding: 50px 0;
+        position: relative;
+        background-image: url(http://youngdigital.co/wp-content/uploads/2012/06/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, .05);
+        background-attachment: fixed;
+    }
+
+    h1,
+    h2,
+    h3 {
+        padding-bottom: 14px;
+        position: relative;
+        color: #333;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: .025em;
+    }
+
+    h2 {
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    .page-header h1 {
+        color: #fff;
+    }
+
+    h1:after {
+        margin: 0 auto;
+        width: 50px;
+        height: 7px;
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #03A9F4;
+        transition: all .3s;
+    }
+
+    h1:hover:after {
+        width: 100px;
+    }
+
+    .portfolio-grid {
+        margin: 0 auto auto;
+        width: 100%;
+    }
+
+    .portfolio {
+        padding: 20px 0;
+    }
+
+    .portfolio-grid img {
+        padding: 0;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .item-absorber:hover .item-link:before,
+    .item-link {
+        height: 100%;
+        width: 100%;
+    }
+
+    .item-absorber {
+        margin-bottom: 30px;
+    }
+
+    .item-link {
+        display: block;
+        position: relative;
+        box-shadow: 0 0 9px -2px #333;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .item-absorber .item-link:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .1);
+        opacity: 0;
+        transition: opacity .2s ease;
+    }
+
+    .item-absorber:hover .item-link:before {
+        opacity: 1;
+    }
+
+    .item-paragraph {
+        position: absolute;
+        bottom: 0;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        background: rgba(0, 0, 0, .5);
+        opacity: 0;
+        box-shadow: 1px 1px 6px 5px rgba(0, 0, 0, .6);
+        transition: all .2s ease;
+    }
+
+    .item-link:hover .item-paragraph {
+        opacity: 1;
+    }
+
+    .item-paragraph p {
+        color: #fff;
+    }
+
 }
