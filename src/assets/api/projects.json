@@ -1,0 +1,317 @@
+[
+    {
+        "type": "wordpress",
+        "name-en": "Mavi Dalga 'Montessori' Anaokulu Theme Implementation",
+        "name-tr": "Mavi Dalga 'Montessori' Anaokulu Theme Implementation",
+        "url-link": "https://mavidalgaanaokulu.com/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/mavidalgaanaokulu.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "Reidin Main Page",
+        "name-tr": "Reidin Main Page",
+        "url-link": "https://www.reidin.com",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/rebis/reidin-main.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Taraftaryazar.com Website",
+        "name-tr": "Taraftaryazar.com Website",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/taraftaryazar/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/taraftaryazar/taraftaryazar.jpg"
+    },
+    {
+        "type": "wordpress",
+        "name-en": "'Örgü Boyunluk' Wordpress Theme Implementation",
+        "name-tr": "'Örgü Boyunluk' Wordpress Theme Implementation",
+        "url-link": "https://orguboyunluk.com/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/orgu-boyunluk.jpg"
+    },
+    {
+        "type": "mail",
+        "name-en": "Reidin CMA Mailing",
+        "name-tr": "Reidin CMA Mailing",
+        "url-link": "http://projects.osmanfikretceylan.com/root/mailing/reidin-cma/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/mailing/reidin-cma/reidin-cma.jpg"
+    },
+    {
+        "type": "mail",
+        "name-en": "Reidin Monthly Mailing",
+        "name-tr": "Reidin Monthly Mailing",
+        "url-link": "http://projects.osmanfikretceylan.com/root/mailing/reidin-monthly-mailing/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/mailing/reidin-monthly-mailing/reidin-monthly.jpg"
+    },
+    {
+        "type": "mail",
+        "name-en": "City Space Global Mailing",
+        "name-tr": "City Space Global Mailing",
+        "url-link": "http://projects.osmanfikretceylan.com/root/mailing/city-space-global/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/mailing/city-space-global/city-space.jpg"
+    },
+    {
+        "type": "mail",
+        "name-en": "Eshot for Mapic Mailing",
+        "name-tr": "Eshot for Mapic Mailing",
+        "url-link": "http://projects.osmanfikretceylan.com/root/mailing/eshot-for-mapic/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/mailing/eshot-for-mapic/eshot-for-mapic.jpg"
+    },
+    {
+        "type": "mail",
+        "name-en": "Turgutlu Belediyesi Temmuz 2016 HTML5 Newsletter",
+        "name-tr": "Turgutlu Belediyesi Temmuz 2016 HTML5 Newsletter",
+        "url-link": "http://projects.osmanfikretceylan.com/root/mailing/turgutlu/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/mailing/turgutlu/turgutlu.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "Filmbox Landing Page",
+        "name-tr": "Filmbox Landing Page",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/filmbox/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/filmbox/filmbox.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "Reidin Login Page - Slider (Responsive)",
+        "name-tr": "Reidin Login Page - Slider (Responsive)",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/reidin-mainpage-slider/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/reidin-mainpage-slider/reidin-mainpage.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "Reidin Login Page - Video (Responsive)",
+        "name-tr": "Reidin Login Page - Video (Responsive)",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/reidin-mainpage/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/reidin-mainpage/reidin-mainpage.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "GKFX Romania Landing Page",
+        "name-tr": "GKFX Romanya Landing Page",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/gkfx",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/gkfx/gkfx.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "GKFX London Landing Page",
+        "name-tr": "GKFX Londra Landing Page",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/gkfx-2",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/gkfx-2/gkfx.jpg"
+    },
+    {
+        "type": "landing-page",
+        "name-en": "Santa Claus Landing Page",
+        "name-tr": "Santa Claus Landing Page",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/santa",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/santa/santa.jpg"
+    },
+    {
+        "type": "landing-page ",
+        "name-en": "Forex Landing Page",
+        "name-tr": "Forex Landing Page",
+        "url-link": "http://projects.osmanfikretceylan.com/root/landing-page/integral",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/integral/forex.jpg"
+    },
+    {
+        "type": "landing-page ",
+        "name-en": "Mynet Cinema Campaign Landing Page",
+        "name-tr": "Mynet Sinema Kampanya Landing Page",
+        "url-link": "http://sinema.mynet.com/kampanyaform.php",
+        "image-link": "http://projects.osmanfikretceylan.com/root/landing-page/mynet-sinema-kampanya-form.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "Sinema Oscar Special Micro Site",
+        "name-tr": "Sinema Oscar Özel Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/cinema-oscar/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/cinema-oscar/oscar.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "'Mynet Kadin' - 'Doğtaş' Advertisement Micro Site",
+        "name-tr": "Mynet Kadın - Doğtaş Advertisement Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/dogtas/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/dogtas/dogtas.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "Domain for Sale Micro Site",
+        "name-tr": "Domain for Sale Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/domain/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/domain/domain.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "CSS3 Button Pack Project Micro Site",
+        "name-tr": "CSS3 Button Pack Project Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/fully-customizable-css3-button-pack/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/fully-customizable-css3-button-pack/css3.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "GKFX Mobile Micro Site",
+        "name-tr": "GKFX Mobil Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/gkfx-mobile/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/gkfx-mobile/gkfx-mobile.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "'Hot Decide' Project Micro Site",
+        "name-tr": "'Hot Decide' Projesi Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/hot-decide/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/hot-decide/hot-decide.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "'Personal Care Professional İlker' Micro Site",
+        "name-tr": "Kişisel Bakım Uzmanı İlker Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/ilker-web/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/ilker-web/ilker.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "Mynet Mail Subscription Micro Site",
+        "name-tr": "Mynet Mail Subscription Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/mail-setting-pages/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/mail-setting-pages/mail-settings.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "Forex Advertisement Micro Site",
+        "name-tr": "Forex Advertisement Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/forex/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/forex/forex.jpg"
+    },
+    {
+        "type": "micro",
+        "name-en": "Mynet Cinema Mobile Form Micro Site",
+        "name-tr": "Mynet Sinema Mobil Formu Micro Site",
+        "url-link": "http://projects.osmanfikretceylan.com/root/micro-site/sinema-mobile-form/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/micro-site/sinema-mobile-form/sinema-mobil.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Cinema - Captain America Banner 843x403",
+        "name-tr": "Mynet Sinema - Captain America Banner 843x403",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/captain-america-843x403.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/sml/captain-america-843x403.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Cinema - Hobbit Banner 638x200",
+        "name-tr": "Mynet Sinema - Hobbit Banner 638x200",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/hobbit-638x200.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/sml/hobbit-638x200.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Cinema - Hobbit Facebook Cover",
+        "name-tr": "Mynet Sinema - Hobbit Facebook Cover",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/facebook-cover/hobbit-facebook-cover.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/facebook-cover/sml/hobbit-facebook-cover.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "'Mynet Kadin' Book Campaign Banner 843x403",
+        "name-tr": "'Mynet Kadın' Book Campaign Banner 843x403",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/mynet-kadin-kitap-843x403-soru2.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/sml/mynet-kadin-kitap-843x403-soru2.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "'Mynet Kadin' Valentines Day Banner 300x250",
+        "name-tr": "'Mynet Kadın' Valentines Day Banner 300x250",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "'Mynet Kadin' Valentines Day Banner 600x400",
+        "name-tr": "'Mynet Kadın' Valentines Day Banner 600x400",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/mynet-kadin-sevgililer-gunu-600x400.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-600x400.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Cinema App Store iPhone 4 Screen",
+        "name-tr": "Mynet Sinema App Store iPhone 4 Screen",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/iphone-4-mynet-sinema-app-3.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/sml/iphone-4-mynet-sinema-app-3.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Sinema App Store iPhone 5 Screen",
+        "name-tr": "Mynet Sinema App Store iPhone 5 Screen",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/iphone-5-mynet-sinema-app-3.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/sml/iphone-5-mynet-sinema-app-3.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Ciname App Store iPhone 4 Screen",
+        "name-tr": "Mynet Sinema App Store iPhone 4 Screen",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/iphone-4-mynet-sinema-app-2.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/sml/iphone-4-mynet-sinema-app-2.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Ciname App Store iPhone 5 Screen",
+        "name-tr": "Mynet Sinema App Store iPhone 5 Screen",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/iphone-5-mynet-sinema-app-2.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/sml/iphone-5-mynet-sinema-app-2.jpg"
+    },
+    {
+        "type": "photoshop",
+        "name-en": "Mynet Cinema App Store iPhone 5 Screen",
+        "name-tr": "Mynet Sinema App Store iPhone 5 Screen",
+        "url-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/iphone-5-mynet-sinema-app-1.jpg",
+        "image-link": "http://projects.osmanfikretceylan.com/root/photoshop/itunes/sml/iphone-5-mynet-sinema-app-1.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Mynet Magazine Service - Birbak",
+        "name-tr": "Mynet Magazine Service - Birbak",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/birbak/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/birbak/birbak.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Mynet Sport Service",
+        "name-tr": "Mynet Spor Servisi",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/spor/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/spor/spor.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Mynet Cinema Service",
+        "name-tr": "Mynet Sinema Servisi",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/sinema/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/sinema/sinema.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Easteacan - Music Group",
+        "name-tr": "Easteacan - Music Group",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/easteacan/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/easteacan/easteacan.jpg"
+    },
+    {
+        "type": "html",
+        "name-en": "Wuely - Web Project",
+        "name-tr": "Wuely - Web Project",
+        "url-link": "http://projects.osmanfikretceylan.com/root/html-site/wuely/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/html-site/wuely/wuely.jpg"
+    },
+    {
+        "type": "wordpress",
+        "name-en": "'Birun Kümbet' Wordpress Theme Implementation",
+        "name-tr": "'Birun Kümbet' Wordpress Theme Implementation",
+        "url-link": "http://birun.com/en/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/brn-big.jpg"
+    },
+    {
+        "type": "wordpress",
+        "name-en": "'Pehlivanproje' Wordpress Theme Implementation",
+        "name-tr": "'Pehlivanproje' Wordpress Theme Implementation",
+        "url-link": "http://pehlivanproje.com/",
+        "image-link": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/pehlivanproje.jpg"
+    }
+]

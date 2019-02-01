@@ -27,13 +27,16 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/assets/font/material-icons/material-icons.scss",
                             "node_modules/material-design-lite/material.min.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                            "node_modules/tingle.js/dist/tingle.min.css",
+                            "src/assets/css/fonts.scss",
                             "src/styles.scss"
                         ],
                         "scripts": [
-                            "node_modules/material-design-lite/material.min.js"
+                            "node_modules/material-design-lite/material.min.js",
+                            "node_modules/isotope-layout/dist/isotope.pkgd.js",
+                            "node_modules/tingle.js/dist/tingle.min.js"
                         ],
                         "es5BrowserSupport": true
                     },
@@ -89,14 +92,16 @@
                         "tsConfig": "src/tsconfig.spec.json",
                         "karmaConfig": "src/karma.conf.js",
                         "styles": [
-                            "src/assets/font/material-icons/material-icons.scss",
                             "node_modules/material-design-lite/material.min.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                            "node_modules/tingle.js/dist/tingle.min.css",
                             "src/assets/css/fonts.scss",
                             "src/styles.scss"
                         ],
                         "scripts": [
-                            "node_modules/material-design-lite/material.min.js"
+                            "node_modules/material-design-lite/material.min.js",
+                            "node_modules/isotope-layout/dist/isotope.pkgd.js",
+                            "node_modules/tingle.js/dist/tingle.min.js"
                         ],
                         "assets": [
                             "src/favicon.ico",
