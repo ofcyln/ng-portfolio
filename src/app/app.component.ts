@@ -38,9 +38,9 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit(): void {}
 
-    filterIsotope(filtername: string): void {
+    filterIsotope(filterName: string): void {
         this.defaultIsotopeOptions = {
-            filter: filtername,
+            filter: filterName,
         };
     }
 }
