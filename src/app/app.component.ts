@@ -1,7 +1,8 @@
-import { AfterViewInit, Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
 
 import { Project, ProjectService } from './shared/project.service';
 import { AlertService } from './core/alert/alert.service';
+import { IsotopeOptions } from 'ngx-isotopee';
 
 @Component({
     selector: 'app-root',
@@ -9,9 +10,8 @@ import { AlertService } from './core/alert/alert.service';
     styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit, AfterViewInit {
-    @ViewChild('isotopeContainer') element: ElementRef;
-
     public projects: Project[];
+    public defaultIsotopeOptions: IsotopeOptions;
 
     constructor(
         private renderer: Renderer2,
@@ -30,7 +30,17 @@ export class AppComponent implements OnInit, AfterViewInit {
                 );
             },
         );
+
+        this.defaultIsotopeOptions = {
+            filter: '*',
+        };
     }
 
     ngAfterViewInit(): void {}
+
+    filterIsotope(filtername: string): void {
+        this.defaultIsotopeOptions = {
+            filter: filtername,
+        };
+    }
 }

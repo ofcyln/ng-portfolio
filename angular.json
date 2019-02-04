@@ -35,7 +35,10 @@
                         ],
                         "scripts": [
                             "node_modules/material-design-lite/material.min.js",
-                            "node_modules/tingle.js/dist/tingle.min.js"
+                            "node_modules/tingle.js/dist/tingle.min.js",
+                            "node_modules/masonry-layout/dist/masonry.pkgd.min.js",
+                            "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+                            "node_modules/imagesloaded/imagesloaded.pkgd.js"
                         ],
                         "es5BrowserSupport": true
                     },
@@ -99,7 +102,10 @@
                         ],
                         "scripts": [
                             "node_modules/material-design-lite/material.min.js",
-                            "node_modules/tingle.js/dist/tingle.min.js"
+                            "node_modules/tingle.js/dist/tingle.min.js",
+                            "node_modules/masonry-layout/dist/masonry.pkgd.min.js",
+                            "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+                            "node_modules/imagesloaded/imagesloaded.pkgd.js"
                         ],
                         "assets": [
                             "src/favicon.ico",

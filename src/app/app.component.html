@@ -22,20 +22,40 @@
                 </article>
 
                 <article class="menu-container">
-                    <button class="menu-element" data-filter=".mail">MAILING</button>
-                    <button class="menu-element" data-filter=".landing-page">LANDING PAGE</button>
-                    <button class="menu-element" data-filter=".micro">MICRO SITE</button>
-                    <button class="menu-element" data-filter=".photoshop">GRAPHIC DESIGN</button>
-                    <button class="menu-element" data-filter=".html">HTML</button>
-                    <button class="menu-element" data-filter=".wordpress">WORDPRESS TEMPLATE</button>
-                    <button class="menu-element active" data-filter="*">ALL</button>
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.mail')">MAILING</button>
+
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.landing-page')">LANDING PAGE</button>
+
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.micro')">MICRO SITE</button>
+
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.photoshop')">GRAPHIC DESIGN</button>
+
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.html')">HTML</button>
+
+                    <button
+                        class="menu-element"
+                        (click)="filterIsotope('.wordpress')">WORDPRESS TEMPLATE</button>
+
+                    <button
+                        class="menu-element active"
+                        (click)="filterIsotope('*')">ALL</button>
                 </article>
 
                 <article class="portfolio-grid">
-                    <section
-                        #isotopeContainer
+                    <isotope-grid
+                        [options]="defaultIsotopeOptions"
                         class="portfolio-wrap row">
-                        <div
+                        <isotope-item
                             *ngFor="let project of projects"
                             [ngClass]="project.type"
                             class="card-image item-absorber col-xs-6 col-sm-6 col-md-4 col-lg-4">
@@ -51,8 +71,8 @@
                                     </p>
                                 </div>
                             </a>
-                        </div>
-                    </section>
+                        </isotope-item>
+                    </isotope-grid>
                 </article>
             </section>
         </main>

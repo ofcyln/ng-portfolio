@@ -4,10 +4,11 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
+import { IsotopeModule } from 'ngx-isotopee';
 
 @NgModule({
     declarations: [AppComponent],
-    imports: [BrowserModule, HttpClientModule, CoreModule],
+    imports: [BrowserModule, HttpClientModule, CoreModule, IsotopeModule],
     providers: [],
     bootstrap: [AppComponent],
 })
