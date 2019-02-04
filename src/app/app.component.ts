@@ -12,6 +12,7 @@ import { IsotopeOptions } from 'ngx-isotopee';
 export class AppComponent implements OnInit, AfterViewInit {
     public projects: Project[];
     public defaultIsotopeOptions: IsotopeOptions;
+    public selectedItem: string = '*';
 
     constructor(
         private renderer: Renderer2,
@@ -42,5 +43,11 @@ export class AppComponent implements OnInit, AfterViewInit {
         this.defaultIsotopeOptions = {
             filter: filterName,
         };
+
+        if (filterName.length > 1) {
+            this.selectedItem = filterName.substring(1);
+        } else {
+            this.selectedItem = filterName;
+        }
     }
 }
