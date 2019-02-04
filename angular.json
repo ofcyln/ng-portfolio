@@ -35,7 +35,6 @@
                         ],
                         "scripts": [
                             "node_modules/material-design-lite/material.min.js",
-                            "node_modules/isotope-layout/dist/isotope.pkgd.js",
                             "node_modules/tingle.js/dist/tingle.min.js"
                         ],
                         "es5BrowserSupport": true
@@ -100,7 +99,6 @@
                         ],
                         "scripts": [
                             "node_modules/material-design-lite/material.min.js",
-                            "node_modules/isotope-layout/dist/isotope.pkgd.js",
                             "node_modules/tingle.js/dist/tingle.min.js"
                         ],
                         "assets": [
