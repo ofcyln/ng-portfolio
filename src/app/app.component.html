@@ -1,4 +1,20 @@
 <section class="container-fluid font--gotham">
+    <div
+        class="loader spinners"
+        *ngIf="!isLoaded">
+        <div class="cube-grid">
+            <div class="cube cube1"></div>
+            <div class="cube cube2"></div>
+            <div class="cube cube3"></div>
+            <div class="cube cube4"></div>
+            <div class="cube cube5"></div>
+            <div class="cube cube6"></div>
+            <div class="cube cube7"></div>
+            <div class="cube cube8"></div>
+            <div class="cube cube9"></div>
+        </div>
+    </div>
+
     <article class="row">
         <div class="col no--padding">
             <app-header></app-header>
@@ -13,7 +29,10 @@
 
             <section class="content">
                 <article class="info-container">
-                    <h2><small>portfolio</small><br> Osman Fikret Ceylan</h2>
+                    <h2>
+                        <small>portfolio</small>
+                        <br> Osman Fikret Ceylan
+                    </h2>
 
                     <p class="margin-top-md">
                         You can see some of my work under the categories.
@@ -25,37 +44,44 @@
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'mail'}"
-                        (click)="filterIsotope('.mail')">MAILING</button>
+                        (click)="filterIsotope('.mail')">MAILING
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'landing-page'}"
-                        (click)="filterIsotope('.landing-page')">LANDING PAGE</button>
+                        (click)="filterIsotope('.landing-page')">LANDING PAGE
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'micro'}"
-                        (click)="filterIsotope('.micro')">MICRO SITE</button>
+                        (click)="filterIsotope('.micro')">MICRO SITE
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'photoshop'}"
-                        (click)="filterIsotope('.photoshop')">GRAPHIC DESIGN</button>
+                        (click)="filterIsotope('.photoshop')">GRAPHIC DESIGN
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'html'}"
-                        (click)="filterIsotope('.html')">HTML</button>
+                        (click)="filterIsotope('.html')">HTML
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === 'wordpress'}"
-                        (click)="filterIsotope('.wordpress')">WORDPRESS TEMPLATE</button>
+                        (click)="filterIsotope('.wordpress')">WORDPRESS TEMPLATE
+                    </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === '*'}"
-                        (click)="filterIsotope('*')">ALL</button>
+                        (click)="filterIsotope('*')">ALL
+                    </button>
                 </article>
 
                 <article class="portfolio-grid">
@@ -65,12 +91,13 @@
                         <isotope-item
                             *ngFor="let project of projects"
                             [ngClass]="project.type"
-                            class="card-image item-absorber col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                            class="item-absorber col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <a
-                               class="item-link"
-                               [href]="project.urlLink"
-                               target="_blank">
-                                <img class="img-area" [src]="project.imageLink" />
+                                class="item-link"
+                                [href]="project.urlLink"
+                                target="_blank"
+                                (click)="isGraphic ? openModal($event, project.urlLink, project.nameEN) : true">
+                                <img class="img-area" [src]="project.imageLink"/>
 
                                 <div class="item-paragraph">
                                     <p>
