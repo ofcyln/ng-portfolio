@@ -117,10 +117,11 @@
                     font-size: 12px;
                     letter-spacing: .05em;
                     cursor: pointer;
-                    margin-top: 10px;
+                    margin: 10px 0 0 1px;
                     transition: all 0.2s ease;
                     &:first-child {
                         border-radius: 5px 0 0 5px;
+                        margin-left: 0;
                     }
                     &:last-child {
                         border-radius: 0 5px 5px 0;
