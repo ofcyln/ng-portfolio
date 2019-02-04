@@ -30,7 +30,7 @@
                             "node_modules/material-design-lite/material.min.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
                             "node_modules/tingle.js/dist/tingle.min.css",
-                            "src/assets/css/fonts.scss",
+                            "src/assets/font/gotham-fonts.scss",
                             "src/styles.scss"
                         ],
                         "scripts": [
@@ -95,7 +95,7 @@
                             "node_modules/material-design-lite/material.min.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
                             "node_modules/tingle.js/dist/tingle.min.css",
-                            "src/assets/css/fonts.scss",
+                            "src/assets/font/gotham-fonts.scss",
                             "src/styles.scss"
                         ],
                         "scripts": [

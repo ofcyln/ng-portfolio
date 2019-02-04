@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
+import { environment } from '../../environments/environment.prod';
+
 export interface Project {
     type: string;
     nameEN: string;
@@ -17,6 +19,6 @@ export class ProjectService {
     constructor(private http: HttpClient) {}
 
     public getProjects(): Observable<Project[]> {
-        return this.http.get<Project[]>('../../assets/api/projects.json');
+        return this.http.get<Project[]>(environment.projectsUrl);
     }
 }

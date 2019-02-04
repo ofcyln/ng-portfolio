@@ -1,4 +1,4 @@
-<section class="container-fluid font--roboto">
+<section class="container-fluid font--gotham">
     <article class="row">
         <div class="col no--padding">
             <app-header></app-header>
@@ -8,18 +8,20 @@
     <article class="row app-content">
         <app-alert></app-alert>
 
-        <main class="col no-padding">
+        <main class="col no-padding areaAbsorber portfolio">
             <router-outlet></router-outlet>
 
             <section class="content">
-                <h2><small>portfolio</small><br> Osman Fikret Ceylan</h2>
+                <article class="info-container">
+                    <h2><small>portfolio</small><br> Osman Fikret Ceylan</h2>
 
-                <p class="margin-top-md">
-                    You can see some of my work under the categories.
-                    <br> Just click on the work that you want to review.
-                </p>
+                    <p class="margin-top-md">
+                        You can see some of my work under the categories.
+                        <br> Just click on the work that you want to review.
+                    </p>
+                </article>
 
-                <section class="margin-top-md">
+                <article class="menu-container">
                     <button class="menu-element" data-filter=".mail">MAILING</button>
                     <button class="menu-element" data-filter=".landing-page">LANDING PAGE</button>
                     <button class="menu-element" data-filter=".micro">MICRO SITE</button>
@@ -27,7 +29,7 @@
                     <button class="menu-element" data-filter=".html">HTML</button>
                     <button class="menu-element" data-filter=".wordpress">WORDPRESS TEMPLATE</button>
                     <button class="menu-element active" data-filter="*">ALL</button>
-                </section>
+                </article>
 
                 <article class="portfolio-grid">
                     <section
