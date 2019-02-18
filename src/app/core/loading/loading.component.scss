@@ -1,0 +1,85 @@
+.cube-grid {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+
+    .cube {
+        width: 33%;
+        height: 33%;
+        background-color: #31acca;
+        float: left;
+        -webkit-animation: cubeGridScaleDelay 1.3s infinite ease-in-out;
+        animation: cubeGridScaleDelay 1.3s infinite ease-in-out;
+    }
+
+    .cube1 {
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+    }
+
+    .cube2 {
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s;
+    }
+
+    .cube3 {
+        -webkit-animation-delay: .4s;
+        animation-delay: .4s;
+    }
+
+    .cube4 {
+        -webkit-animation-delay: .1s;
+        animation-delay: .1s;
+    }
+
+    .cube5 {
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+    }
+
+    .cube6 {
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s;
+    }
+
+    .cube7 {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+
+    .cube8 {
+        -webkit-animation-delay: .1s;
+        animation-delay: .1s;
+    }
+
+    .cube9 {
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+    }
+}
+
+@-webkit-keyframes cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@keyframes cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
