@@ -51,7 +51,7 @@ export class AppComponent implements OnInit, AfterViewInit {
             stickyFooter: false,
             closeMethods: ['overlay', 'button', 'escape'],
             closeLabel: 'Close',
-            cssClass: ['custom-class-1', 'custom-class-2'],
+            cssClass: ['modalContainer'],
         });
     }
 
