@@ -42,45 +42,18 @@
 
                 <article class="menu-container">
                     <button
+                        *ngFor="let filter of filters"
                         class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'mail'}"
-                        (click)="filterIsotope('.mail')">MAILING
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'landing-page'}"
-                        (click)="filterIsotope('.landing-page')">LANDING PAGE
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'micro'}"
-                        (click)="filterIsotope('.micro')">MICRO SITE
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'photoshop'}"
-                        (click)="filterIsotope('.photoshop')">GRAPHIC DESIGN
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'html'}"
-                        (click)="filterIsotope('.html')">HTML
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === 'wordpress'}"
-                        (click)="filterIsotope('.wordpress')">WORDPRESS TEMPLATE
+                        [ngClass]="{'active': selectedItem === filter.className}"
+                        (click)="filterIsotope('.' + filter.className)">
+                        {{ filter.title }}
                     </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === '*'}"
-                        (click)="filterIsotope('*')">ALL
+                        (click)="filterIsotope('*')">
+                        ALL
                     </button>
                 </article>
 

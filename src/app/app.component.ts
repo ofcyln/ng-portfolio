@@ -1,24 +1,31 @@
-import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 import { Project, ProjectService } from './shared/project.service';
 import { AlertService } from './core/alert/alert.service';
 import { IsotopeOptions } from 'ngx-isotopee';
 import { modal } from 'tingle.js';
+import { filters } from './shared/filters.model';
+
+export interface FilterTypes {
+    className: string;
+    title: string;
+}
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class AppComponent implements OnInit {
     public projects: Project[];
-    public defaultIsotopeOptions: IsotopeOptions;
+    public defaultIsotopeOptions: IsotopeOptions = { filter: '*' };
     public selectedItem: string = '*';
     public modalContainer: modal;
     public isLoaded: boolean = false;
     public isGraphic: boolean = false;
+    public filters: FilterTypes[] = filters;
 
-    @HostListener('click', ['$event']) public onClick(event: any): void {
+    @HostListener('click', ['$event']) public onClick(event: Event): void {
         if (this.isGraphic) {
             event.stopPropagation();
         }
@@ -40,12 +47,6 @@ export class AppComponent implements OnInit, AfterViewInit {
             },
         );
 
-        this.defaultIsotopeOptions = {
-            filter: '*',
-        };
-    }
-
-    ngAfterViewInit(): void {
         this.modalContainer = new modal({
             footer: true,
             stickyFooter: false,
