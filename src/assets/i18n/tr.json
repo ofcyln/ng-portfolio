@@ -1,0 +1,18 @@
+{
+    "main": {
+        "head" : {
+            "small-title": "portfolyo",
+            "info": "Kategorilerin altında çalışmalarımın bir kısmını görebilirsiniz.",
+            "sub-info": "İncelemek istediğiniz çalışmanın üzerine tıklamanız yeterlidir."
+        },
+        "menu-elements": {
+            "mail": "MAILING",
+            "landing-page": "LANDING PAGE",
+            "micro": "MIKRO SITE",
+            "photoshop": "GRAFIK TASARIM",
+            "html": "HTML",
+            "wordpress": "WORDPRESS TEMA",
+            "all": "TUMU"
+        }
+    }
+}

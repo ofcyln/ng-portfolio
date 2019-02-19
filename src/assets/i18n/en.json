@@ -1,0 +1,18 @@
+{
+    "main": {
+        "head" : {
+            "small-title": "portfolio",
+            "info": "You can see some of my work under the categories.",
+            "sub-info": "Just click on the work that you want to review."
+        },
+        "menu-elements": {
+            "mail": "MAILING",
+            "landing-page": "LANDING PAGE",
+            "micro": "MICRO SITE",
+            "photoshop": "GRAPHIC DESIGN",
+            "html": "HTML",
+            "wordpress": "WORDPRESS TEMPLATE",
+            "all": "ALL"
+        }
+    }
+}

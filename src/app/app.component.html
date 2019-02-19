@@ -20,14 +20,14 @@
             <section class="content">
                 <article class="info-container">
                     <h2>
-                        <small>portfolio</small>
+                        <small translate>main.head.small-title</small>
                         <br> Osman Fikret Ceylan
                     </h2>
 
-                    <p class="margin-top-md">
-                        You can see some of my work under the categories.
-                        <br> Just click on the work that you want to review.
-                    </p>
+                    <div class="margin-top-md">
+                        <p class="no--margin" translate>main.head.info</p>
+                        <p translate>main.head.sub-info</p>
+                    </div>
                 </article>
 
                 <article class="menu-container">
@@ -35,15 +35,17 @@
                         *ngFor="let filter of filters"
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === filter.className}"
-                        (click)="filterIsotope('.' + filter.className)">
-                        {{ filter.title }}
+                        (click)="filterIsotope('.' + filter.className)"
+                        translate>
+                        main.menu-elements.{{ filter.className }}
                     </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === '*'}"
-                        (click)="filterIsotope('*')">
-                        ALL
+                        (click)="filterIsotope('*')"
+                        translate>
+                        main.menu-elements.all
                     </button>
                 </article>
 

@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { Project, ProjectService } from './shared/project.service';
 import { AlertService } from './core/alert/alert.service';
@@ -24,6 +25,7 @@ export class AppComponent implements OnInit {
     public isLoaded: boolean = false;
     public isGraphic: boolean = false;
     public filters: FilterTypes[] = filters;
+    public language: string = 'en';
 
     @HostListener('click', ['$event']) public onClick(event: Event): void {
         if (this.isGraphic) {
@@ -31,7 +33,17 @@ export class AppComponent implements OnInit {
         }
     }
 
-    constructor(private projectService: ProjectService, private alertService: AlertService) {}
+    constructor(
+        private projectService: ProjectService,
+        private alertService: AlertService,
+        translate: TranslateService,
+    ) {
+        translate.addLangs(['en', 'tr']);
+        translate.setDefaultLang('en');
+
+        const browserLang = translate.getBrowserLang();
+        translate.use(browserLang.match(/en|tr/) ? browserLang : 'en');
+    }
 
     ngOnInit(): void {
         this.projectService.getProjects().subscribe(
@@ -81,5 +93,9 @@ export class AppComponent implements OnInit {
         );
 
         this.modalContainer.open();
+    }
+
+    changeLanguage(language: string) {
+        this.language = language;
     }
 }
