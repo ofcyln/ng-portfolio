@@ -70,35 +70,11 @@ export class AppComponent implements OnInit {
             cssClass: ['modalContainer'],
         });
 
-        // this.workTypes
-
-        this.translate
-            .stream('main.menu-elements.mail')
-            .subscribe((translatedText) => (this.workTypes[0].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.landing-page')
-            .subscribe((translatedText) => (this.workTypes[1].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.micro')
-            .subscribe((translatedText) => (this.workTypes[2].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.photoshop')
-            .subscribe((translatedText) => (this.workTypes[3].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.html')
-            .subscribe((translatedText) => (this.workTypes[4].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.wordpress')
-            .subscribe((translatedText) => (this.workTypes[5].title = translatedText));
-
-        this.translate
-            .stream('main.menu-elements.all')
-            .subscribe((translatedText) => (this.workTypes[6].title = translatedText));
+        this.workTypes.forEach((item) => {
+            return this.translate
+                .stream('main.menu-elements.' + item.title)
+                .subscribe((translatedText) => (this.workTypes[item.id].title = translatedText));
+        });
     }
 
     filterIsotope(filterName: string): void {
