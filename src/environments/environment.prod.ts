@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    projectsUrl: '../../assets/api/projects.json',
+    projectsUrl: '/portfolio/assets/api/projects.json',
 };
