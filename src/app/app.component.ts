@@ -6,6 +6,7 @@ import { AlertService } from './core/alert/alert.service';
 import { IsotopeOptions } from 'ngx-isotopee';
 import { modal } from 'tingle.js';
 import { filters } from './shared/filters.model';
+import { StorageService } from './shared/storage.service';
 
 export interface FilterTypes {
     className: string;
@@ -23,12 +24,12 @@ export class AppComponent implements OnInit {
     public selectedItem: string = '*';
     public modalContainer: modal;
     public isLoaded: boolean = false;
-    public isGraphic: boolean = false;
+    public isGraphicDesign: boolean = false;
     public filters: FilterTypes[] = filters;
-    public language: string = 'en';
+    public languagePreference: string = 'en';
 
     @HostListener('click', ['$event']) public onClick(event: Event): void {
-        if (this.isGraphic) {
+        if (this.isGraphicDesign) {
             event.stopPropagation();
         }
     }
@@ -36,14 +37,9 @@ export class AppComponent implements OnInit {
     constructor(
         private projectService: ProjectService,
         private alertService: AlertService,
-        translate: TranslateService,
-    ) {
-        translate.addLangs(['en', 'tr']);
-        translate.setDefaultLang('en');
-
-        const browserLang = translate.getBrowserLang();
-        translate.use(browserLang.match(/en|tr/) ? browserLang : 'en');
-    }
+        public translate: TranslateService,
+        private storageService: StorageService,
+    ) {}
 
     ngOnInit(): void {
         this.projectService.getProjects().subscribe(
@@ -69,7 +65,7 @@ export class AppComponent implements OnInit {
     }
 
     filterIsotope(filterName: string): void {
-        this.isGraphic = false;
+        this.isGraphicDesign = false;
 
         this.defaultIsotopeOptions = {
             filter: filterName,
@@ -78,7 +74,7 @@ export class AppComponent implements OnInit {
         if (filterName.length > 1) {
             this.selectedItem = filterName.substring(1);
             if (this.selectedItem === 'photoshop') {
-                this.isGraphic = true;
+                this.isGraphicDesign = true;
             }
         } else {
             this.selectedItem = filterName;
@@ -93,9 +89,5 @@ export class AppComponent implements OnInit {
         );
 
         this.modalContainer.open();
-    }
-
-    changeLanguage(language: string) {
-        this.language = language;
     }
 }
