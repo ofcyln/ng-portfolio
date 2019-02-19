@@ -5,12 +5,14 @@
             <div class="language-area text-right margin-top-lg">
                 <button
                     class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mr-2"
+                    [ngClass]="languageService.languagePreference === 'tr' ? 'active' : ''"
                     (click)="languageService.changeLanguage('tr')">
                     <span class="font-size--12 d-block">TR</span>
                 </button>
 
                 <button
-                    class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab active"
+                    class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
+                    [ngClass]="languageService.languagePreference === 'en' ? 'active' : ''"
                     (click)="languageService.changeLanguage('en')">
                     <span class="font-size--12 d-block">EN</span>
                 </button>
