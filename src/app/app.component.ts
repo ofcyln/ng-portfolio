@@ -26,7 +26,15 @@ export class AppComponent implements OnInit {
     public isLoaded: boolean = false;
     public isGraphicDesign: boolean = false;
     public filters: FilterTypes[] = filters;
-    public languagePreference: string = 'en';
+    public workTypes = [
+        { title: 'mail', id: 0 },
+        { title: 'landing-page', id: 1 },
+        { title: 'micro', id: 2 },
+        { title: 'photoshop', id: 3 },
+        { title: 'html', id: 4 },
+        { title: 'wordpress', id: 5 },
+        { title: 'all', id: 6 },
+    ];
 
     @HostListener('click', ['$event']) public onClick(event: Event): void {
         if (this.isGraphicDesign) {
@@ -38,7 +46,6 @@ export class AppComponent implements OnInit {
         private projectService: ProjectService,
         private alertService: AlertService,
         public translate: TranslateService,
-        private storageService: StorageService,
     ) {}
 
     ngOnInit(): void {
@@ -62,6 +69,36 @@ export class AppComponent implements OnInit {
             closeLabel: 'Close',
             cssClass: ['modalContainer'],
         });
+
+        // this.workTypes
+
+        this.translate
+            .stream('main.menu-elements.mail')
+            .subscribe((translatedText) => (this.workTypes[0].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.landing-page')
+            .subscribe((translatedText) => (this.workTypes[1].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.micro')
+            .subscribe((translatedText) => (this.workTypes[2].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.photoshop')
+            .subscribe((translatedText) => (this.workTypes[3].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.html')
+            .subscribe((translatedText) => (this.workTypes[4].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.wordpress')
+            .subscribe((translatedText) => (this.workTypes[5].title = translatedText));
+
+        this.translate
+            .stream('main.menu-elements.all')
+            .subscribe((translatedText) => (this.workTypes[6].title = translatedText));
     }
 
     filterIsotope(filterName: string): void {

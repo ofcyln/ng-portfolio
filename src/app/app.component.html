@@ -32,20 +32,18 @@
 
                 <article class="menu-container">
                     <button
-                        *ngFor="let filter of filters"
+                        *ngFor="let filter of filters; let i = index"
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === filter.className}"
-                        (click)="filterIsotope('.' + filter.className)"
-                        translate>
-                        main.menu-elements.{{ filter.className }}
+                        (click)="filterIsotope('.' + filter.className)">
+                        {{ workTypes[i].title }}
                     </button>
 
                     <button
                         class="menu-element"
                         [ngClass]="{'active': selectedItem === '*'}"
-                        (click)="filterIsotope('*')"
-                        translate>
-                        main.menu-elements.all
+                        (click)="filterIsotope('*')">
+                        {{ workTypes[6].title }}
                     </button>
                 </article>
 
