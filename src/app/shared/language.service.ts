@@ -5,7 +5,7 @@ import { StorageService } from './storage.service';
 
 @Injectable()
 export class LanguageService {
-    public languagePreference: string = 'en';
+    public languagePreference: string = this.storageService.getItem('prefered-language') || 'en';
 
     constructor(public translate: TranslateService, private storageService: StorageService) {
         translate.addLangs(['en', 'tr']);
