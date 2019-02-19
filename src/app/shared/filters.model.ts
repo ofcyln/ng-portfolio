@@ -1,6 +1,6 @@
-import { FilterTypes } from '../app.component';
+import { FilterType } from '../app.component';
 
-export const filters: FilterTypes[] = [
+export const filters: FilterType[] = [
     {
         className: 'mail',
         title: 'MAILING',

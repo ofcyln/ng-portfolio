@@ -6,11 +6,16 @@ import { AlertService } from './core/alert/alert.service';
 import { IsotopeOptions } from 'ngx-isotopee';
 import { modal } from 'tingle.js';
 import { filters } from './shared/filters.model';
-import { StorageService } from './shared/storage.service';
+import { Subscription } from 'rxjs';
 
-export interface FilterTypes {
+export interface FilterType {
     className: string;
     title: string;
+}
+
+export interface WorkType {
+    title: string;
+    id: number;
 }
 
 @Component({
@@ -25,8 +30,8 @@ export class AppComponent implements OnInit {
     public modalContainer: modal;
     public isLoaded: boolean = false;
     public isGraphicDesign: boolean = false;
-    public filters: FilterTypes[] = filters;
-    public workTypes = [
+    public filters: FilterType[] = filters;
+    public workTypes: WorkType[] = [
         { title: 'mail', id: 0 },
         { title: 'landing-page', id: 1 },
         { title: 'micro', id: 2 },
@@ -70,11 +75,15 @@ export class AppComponent implements OnInit {
             cssClass: ['modalContainer'],
         });
 
-        this.workTypes.forEach((item) => {
-            return this.translate
-                .stream('main.menu-elements.' + item.title)
-                .subscribe((translatedText) => (this.workTypes[item.id].title = translatedText));
-        });
+        this.workTypes.forEach(
+            (item: WorkType): Subscription => {
+                return this.translate
+                    .stream('main.menu-elements.' + item.title)
+                    .subscribe(
+                        (translatedText) => (this.workTypes[item.id].title = translatedText),
+                    );
+            },
+        );
     }
 
     filterIsotope(filterName: string): void {
