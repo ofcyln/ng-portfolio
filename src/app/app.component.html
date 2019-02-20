@@ -66,12 +66,8 @@
                                     [alt]="project.nameEN"/>
 
                                 <div class="item-paragraph">
-                                    <p *ngIf="languageService.languagePreference === 'en'">
-                                        {{ project.nameEN }}
-                                    </p>
-
-                                    <p *ngIf="languageService.languagePreference === 'tr'">
-                                        {{ project.nameTR }}
+                                    <p>
+                                        {{ languageService.languagePreference === 'en' ? project.nameEN : project.nameTR }}
                                     </p>
                                 </div>
                             </a>
