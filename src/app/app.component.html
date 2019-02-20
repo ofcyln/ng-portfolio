@@ -59,12 +59,19 @@
                                 class="item-link"
                                 [href]="project.urlLink"
                                 target="_blank"
-                                (click)="isGraphicDesign ? openModal($event, project.urlLink, project.nameEN) : true">
-                                <img class="img-area" [src]="project.imageLink"/>
+                                (click)="isGraphicDesign ? openModal($event, project.urlLink, project.nameEN) : true"
+                                rel="noopener">
+                                <img
+                                    class="img-area" [src]="project.imageLink"
+                                    [alt]="project.nameEN"/>
 
                                 <div class="item-paragraph">
-                                    <p>
+                                    <p *ngIf="languageService.languagePreference === 'en'">
                                         {{ project.nameEN }}
+                                    </p>
+
+                                    <p *ngIf="languageService.languagePreference === 'tr'">
+                                        {{ project.nameTR }}
                                     </p>
                                 </div>
                             </a>

@@ -7,6 +7,7 @@ import { IsotopeOptions } from 'ngx-isotopee';
 import { modal } from 'tingle.js';
 import { filters } from './shared/filters.model';
 import { Subscription } from 'rxjs';
+import { LanguageService } from './shared/language.service';
 
 export interface FilterType {
     className: string;
@@ -51,6 +52,7 @@ export class AppComponent implements OnInit {
         private projectService: ProjectService,
         private alertService: AlertService,
         public translate: TranslateService,
+        public languageService: LanguageService,
     ) {}
 
     ngOnInit(): void {

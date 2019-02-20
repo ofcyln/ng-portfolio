@@ -2,14 +2,14 @@
     {
         "type": "wordpress",
         "nameEN": "Mavi Dalga 'Montessori' Anaokulu Theme Implementation",
-        "nameTR": "Mavi Dalga 'Montessori' Anaokulu Theme Implementation",
+        "nameTR": "Mavi Dalga 'Montessori' Anaokulu Tema Implementasyonu",
         "urlLink": "https://mavidalgaanaokulu.com/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/mavidalgaanaokulu.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Reidin Main Page",
-        "nameTR": "Reidin Main Page",
+        "nameTR": "Reidin Ana Sayfa",
         "urlLink": "https://www.reidin.com",
         "imageLink": "http://projects.osmanfikretceylan.com/root/landing-page/rebis/reidin-main.jpg"
     },
@@ -23,42 +23,42 @@
     {
         "type": "wordpress",
         "nameEN": "'Örgü Boyunluk' Wordpress Theme Implementation",
-        "nameTR": "'Örgü Boyunluk' Wordpress Theme Implementation",
+        "nameTR": "'Örgü Boyunluk' Wordpress Tema Implementasyonu",
         "urlLink": "https://orguboyunluk.com/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/orgu-boyunluk.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Reidin CMA Mailing",
-        "nameTR": "Reidin CMA Mailing",
+        "nameTR": "Reidin CMA Mailing Sablonu",
         "urlLink": "http://projects.osmanfikretceylan.com/root/mailing/reidin-cma/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/mailing/reidin-cma/reidin-cma.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Reidin Monthly Mailing",
-        "nameTR": "Reidin Monthly Mailing",
+        "nameTR": "Reidin Monthly Mailing Sablonu",
         "urlLink": "http://projects.osmanfikretceylan.com/root/mailing/reidin-monthly-mailing/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/mailing/reidin-monthly-mailing/reidin-monthly.jpg"
     },
     {
         "type": "mail",
         "nameEN": "City Space Global Mailing",
-        "nameTR": "City Space Global Mailing",
+        "nameTR": "City Space Global Mailing Sablonu",
         "urlLink": "http://projects.osmanfikretceylan.com/root/mailing/city-space-global/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/mailing/city-space-global/city-space.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Eshot for Mapic Mailing",
-        "nameTR": "Eshot for Mapic Mailing",
+        "nameTR": "Eshot for Mapic Mailing Sablonu",
         "urlLink": "http://projects.osmanfikretceylan.com/root/mailing/eshot-for-mapic/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/mailing/eshot-for-mapic/eshot-for-mapic.jpg"
     },
     {
         "type": "mail",
-        "nameEN": "Turgutlu Belediyesi Temmuz 2016 HTML5 Newsletter",
-        "nameTR": "Turgutlu Belediyesi Temmuz 2016 HTML5 Newsletter",
+        "nameEN": "Turgutlu Belediyesi Temmuz 2016 HTML5 Digital Newsletter",
+        "nameTR": "Turgutlu Belediyesi Temmuz 2016 HTML5 Dijital Dergi",
         "urlLink": "http://projects.osmanfikretceylan.com/root/mailing/turgutlu/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/mailing/turgutlu/turgutlu.jpg"
     },
@@ -121,63 +121,63 @@
     {
         "type": "micro",
         "nameEN": "Sinema Oscar Special Micro Site",
-        "nameTR": "Sinema Oscar Özel Micro Site",
+        "nameTR": "Sinema Oscar Özel Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/cinema-oscar/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/cinema-oscar/oscar.jpg"
     },
     {
         "type": "micro",
         "nameEN": "'Mynet Kadin' - 'Doğtaş' Advertisement Micro Site",
-        "nameTR": "Mynet Kadın - Doğtaş Advertisement Micro Site",
+        "nameTR": "Mynet Kadın - Doğtaş Reklam Mikro Sitesi",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/dogtas/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/dogtas/dogtas.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Domain for Sale Micro Site",
-        "nameTR": "Domain for Sale Micro Site",
+        "nameTR": "Domain for Sale Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/domain/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/domain/domain.jpg"
     },
     {
         "type": "micro",
         "nameEN": "CSS3 Button Pack Project Micro Site",
-        "nameTR": "CSS3 Button Pack Project Micro Site",
+        "nameTR": "CSS3 Button Pack Project Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/fully-customizable-css3-button-pack/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/fully-customizable-css3-button-pack/css3.jpg"
     },
     {
         "type": "micro",
         "nameEN": "GKFX Mobile Micro Site",
-        "nameTR": "GKFX Mobil Micro Site",
+        "nameTR": "GKFX Mobil Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/gkfx-mobile/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/gkfx-mobile/gkfx-mobile.jpg"
     },
     {
         "type": "micro",
         "nameEN": "'Personal Care Professional İlker' Micro Site",
-        "nameTR": "Kişisel Bakım Uzmanı İlker Micro Site",
+        "nameTR": "Kişisel Bakım Uzmanı İlker Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/ilker-web/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/ilker-web/ilker.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Mynet Mail Subscription Micro Site",
-        "nameTR": "Mynet Mail Subscription Micro Site",
+        "nameTR": "Mynet Mail Uyelik Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/mail-setting-pages/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/mail-setting-pages/mail-settings.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Forex Advertisement Micro Site",
-        "nameTR": "Forex Advertisement Micro Site",
+        "nameTR": "Forex Advertisement Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/forex/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/forex/forex.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Mynet Cinema Mobile Form Micro Site",
-        "nameTR": "Mynet Sinema Mobil Formu Micro Site",
+        "nameTR": "Mynet Sinema Mobil Formu Mikro Site",
         "urlLink": "http://projects.osmanfikretceylan.com/root/micro-site/sinema-mobile-form/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/micro-site/sinema-mobile-form/sinema-mobil.jpg"
     },
@@ -282,28 +282,28 @@
     {
         "type": "html",
         "nameEN": "Easteacan - Music Group",
-        "nameTR": "Easteacan - Music Group",
+        "nameTR": "Easteacan - Muzik Grubu",
         "urlLink": "http://projects.osmanfikretceylan.com/root/html-site/easteacan/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/html-site/easteacan/easteacan.jpg"
     },
     {
         "type": "html",
         "nameEN": "Wuely - Web Project",
-        "nameTR": "Wuely - Web Project",
+        "nameTR": "Wuely - Web Projesi",
         "urlLink": "http://projects.osmanfikretceylan.com/root/html-site/wuely/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/html-site/wuely/wuely.jpg"
     },
     {
         "type": "wordpress",
         "nameEN": "'Birun Kümbet' Wordpress Theme Implementation",
-        "nameTR": "'Birun Kümbet' Wordpress Theme Implementation",
+        "nameTR": "'Birun Kümbet' Wordpress Tema Implementasyonu",
         "urlLink": "http://birun.com/en/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/brn-big.jpg"
     },
     {
         "type": "wordpress",
         "nameEN": "'Pehlivanproje' Wordpress Theme Implementation",
-        "nameTR": "'Pehlivanproje' Wordpress Theme Implementation",
+        "nameTR": "'Pehlivanproje' Wordpress Tema Implementasyonu",
         "urlLink": "http://pehlivanproje.com/",
         "imageLink": "http://projects.osmanfikretceylan.com/root/wordpress-uyarlama/pehlivanproje.jpg"
     }
