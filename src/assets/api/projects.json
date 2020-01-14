@@ -4,307 +4,307 @@
         "nameEN": "Mavi Dalga 'Montessori' Anaokulu Theme Implementation",
         "nameTR": "Mavi Dalga 'Montessori' Anaokulu Tema Implementasyonu",
         "urlLink": "https://mavidalgaanaokulu.com/",
-        "imageLink": "../works/wordpress-uyarlama/mavidalgaanaokulu.jpg"
+        "imageLink": "assets/works/wordpress-uyarlama/mavidalgaanaokulu.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Reidin Main Page",
         "nameTR": "Reidin Ana Sayfa",
         "urlLink": "https://www.reidin.com",
-        "imageLink": "../works/landing-page/rebis/reidin-main.jpg"
+        "imageLink": "assets/works/landing-page/rebis/reidin-main.jpg"
     },
     {
         "type": "html",
         "nameEN": "Taraftaryazar.com Website",
         "nameTR": "Taraftaryazar.com Website",
-        "urlLink": "../works/html-site/taraftaryazar/",
-        "imageLink": "../works/html-site/taraftaryazar/taraftaryazar.jpg"
+        "urlLink": "assets/works/html-site/taraftaryazar/",
+        "imageLink": "assets/works/html-site/taraftaryazar/taraftaryazar.jpg"
     },
     {
         "type": "wordpress",
         "nameEN": "'Örgü Boyunluk' Wordpress Theme Implementation",
         "nameTR": "'Örgü Boyunluk' Wordpress Tema Implementasyonu",
         "urlLink": "https://orguboyunluk.com/",
-        "imageLink": "../works/wordpress-uyarlama/orgu-boyunluk.jpg"
+        "imageLink": "assets/works/wordpress-uyarlama/orgu-boyunluk.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Reidin CMA Mailing",
         "nameTR": "Reidin CMA Mailing Sablonu",
-        "urlLink": "../works/mailing/reidin-cma/",
-        "imageLink": "../works/mailing/reidin-cma/reidin-cma.jpg"
+        "urlLink": "assets/works/mailing/reidin-cma/",
+        "imageLink": "assets/works/mailing/reidin-cma/reidin-cma.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Reidin Monthly Mailing",
         "nameTR": "Reidin Monthly Mailing Sablonu",
-        "urlLink": "../works/mailing/reidin-monthly-mailing/",
-        "imageLink": "../works/mailing/reidin-monthly-mailing/reidin-monthly.jpg"
+        "urlLink": "assets/works/mailing/reidin-monthly-mailing/",
+        "imageLink": "assets/works/mailing/reidin-monthly-mailing/reidin-monthly.jpg"
     },
     {
         "type": "mail",
         "nameEN": "City Space Global Mailing",
         "nameTR": "City Space Global Mailing Sablonu",
-        "urlLink": "../works/mailing/city-space-global/",
-        "imageLink": "../works/mailing/city-space-global/city-space.jpg"
+        "urlLink": "assets/works/mailing/city-space-global/",
+        "imageLink": "assets/works/mailing/city-space-global/city-space.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Eshot for Mapic Mailing",
         "nameTR": "Eshot for Mapic Mailing Sablonu",
-        "urlLink": "../works/mailing/eshot-for-mapic/",
-        "imageLink": "../works/mailing/eshot-for-mapic/eshot-for-mapic.jpg"
+        "urlLink": "assets/works/mailing/eshot-for-mapic/",
+        "imageLink": "assets/works/mailing/eshot-for-mapic/eshot-for-mapic.jpg"
     },
     {
         "type": "mail",
         "nameEN": "Turgutlu Belediyesi Temmuz 2016 HTML5 Digital Newsletter",
         "nameTR": "Turgutlu Belediyesi Temmuz 2016 HTML5 Dijital Dergi",
-        "urlLink": "../works/mailing/turgutlu/",
-        "imageLink": "../works/mailing/turgutlu/turgutlu.jpg"
+        "urlLink": "assets/works/mailing/turgutlu/",
+        "imageLink": "assets/works/mailing/turgutlu/turgutlu.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Filmbox Landing Page",
         "nameTR": "Filmbox Landing Page",
-        "urlLink": "../works/landing-page/filmbox/",
-        "imageLink": "../works/landing-page/filmbox/filmbox.jpg"
+        "urlLink": "assets/works/landing-page/filmbox/",
+        "imageLink": "assets/works/landing-page/filmbox/filmbox.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Reidin Login Page - Slider (Responsive)",
         "nameTR": "Reidin Login Page - Slider (Responsive)",
-        "urlLink": "../works/landing-page/reidin-mainpage-slider/",
-        "imageLink": "../works/landing-page/reidin-mainpage-slider/reidin-mainpage.jpg"
+        "urlLink": "assets/works/landing-page/reidin-mainpage-slider/",
+        "imageLink": "assets/works/landing-page/reidin-mainpage-slider/reidin-mainpage.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Reidin Login Page - Video (Responsive)",
         "nameTR": "Reidin Login Page - Video (Responsive)",
-        "urlLink": "../works/landing-page/reidin-mainpage/",
-        "imageLink": "../works/landing-page/reidin-mainpage/reidin-mainpage.jpg"
+        "urlLink": "assets/works/landing-page/reidin-mainpage/",
+        "imageLink": "assets/works/landing-page/reidin-mainpage/reidin-mainpage.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "GKFX Romania Landing Page",
         "nameTR": "GKFX Romanya Landing Page",
-        "urlLink": "../works/landing-page/gkfx",
-        "imageLink": "../works/landing-page/gkfx/gkfx.jpg"
+        "urlLink": "assets/works/landing-page/gkfx",
+        "imageLink": "assets/works/landing-page/gkfx/gkfx.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "GKFX London Landing Page",
         "nameTR": "GKFX Londra Landing Page",
-        "urlLink": "../works/landing-page/gkfx-2",
-        "imageLink": "../works/landing-page/gkfx-2/gkfx.jpg"
+        "urlLink": "assets/works/landing-page/gkfx-2",
+        "imageLink": "assets/works/landing-page/gkfx-2/gkfx.jpg"
     },
     {
         "type": "landing-page",
         "nameEN": "Santa Claus Landing Page",
         "nameTR": "Santa Claus Landing Page",
-        "urlLink": "../works/landing-page/santa",
-        "imageLink": "../works/landing-page/santa/santa.jpg"
+        "urlLink": "assets/works/landing-page/santa",
+        "imageLink": "assets/works/landing-page/santa/santa.jpg"
     },
     {
         "type": "landing-page ",
         "nameEN": "Forex Landing Page",
         "nameTR": "Forex Landing Page",
-        "urlLink": "../works/landing-page/integral",
-        "imageLink": "../works/landing-page/integral/forex.jpg"
+        "urlLink": "assets/works/landing-page/integral",
+        "imageLink": "assets/works/landing-page/integral/forex.jpg"
     },
     {
         "type": "landing-page ",
         "nameEN": "Mynet Cinema Campaign Landing Page",
         "nameTR": "Mynet Sinema Kampanya Landing Page",
         "urlLink": "http://sinema.mynet.com/kampanyaform.php",
-        "imageLink": "../works/landing-page/mynet-sinema-kampanya-form.jpg"
+        "imageLink": "assets/works/landing-page/mynet-sinema-kampanya-form.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Sinema Oscar Special Micro Site",
         "nameTR": "Sinema Oscar Özel Mikro Site",
-        "urlLink": "../works/micro-site/cinema-oscar/",
-        "imageLink": "../works/micro-site/cinema-oscar/oscar.jpg"
+        "urlLink": "assets/works/micro-site/cinema-oscar/",
+        "imageLink": "assets/works/micro-site/cinema-oscar/oscar.jpg"
     },
     {
         "type": "micro",
         "nameEN": "'Mynet Kadin' - 'Doğtaş' Advertisement Micro Site",
         "nameTR": "Mynet Kadın - Doğtaş Reklam Mikro Sitesi",
-        "urlLink": "../works/micro-site/dogtas/",
-        "imageLink": "../works/micro-site/dogtas/dogtas.jpg"
+        "urlLink": "assets/works/micro-site/dogtas/",
+        "imageLink": "assets/works/micro-site/dogtas/dogtas.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Domain for Sale Micro Site",
         "nameTR": "Domain for Sale Mikro Site",
-        "urlLink": "../works/micro-site/domain/",
-        "imageLink": "../works/micro-site/domain/domain.jpg"
+        "urlLink": "assets/works/micro-site/domain/",
+        "imageLink": "assets/works/micro-site/domain/domain.jpg"
     },
     {
         "type": "micro",
         "nameEN": "CSS3 Button Pack Project Micro Site",
         "nameTR": "CSS3 Button Pack Project Mikro Site",
-        "urlLink": "../works/micro-site/fully-customizable-css3-button-pack/",
-        "imageLink": "../works/micro-site/fully-customizable-css3-button-pack/css3.jpg"
+        "urlLink": "assets/works/micro-site/fully-customizable-css3-button-pack/",
+        "imageLink": "assets/works/micro-site/fully-customizable-css3-button-pack/css3.jpg"
     },
     {
         "type": "micro",
         "nameEN": "GKFX Mobile Micro Site",
         "nameTR": "GKFX Mobil Mikro Site",
-        "urlLink": "../works/micro-site/gkfx-mobile/",
-        "imageLink": "../works/micro-site/gkfx-mobile/gkfx-mobile.jpg"
+        "urlLink": "assets/works/micro-site/gkfx-mobile/",
+        "imageLink": "assets/works/micro-site/gkfx-mobile/gkfx-mobile.jpg"
     },
     {
         "type": "micro",
         "nameEN": "'Personal Care Professional İlker' Micro Site",
         "nameTR": "Kişisel Bakım Uzmanı İlker Mikro Site",
-        "urlLink": "../works/micro-site/ilker-web/",
-        "imageLink": "../works/micro-site/ilker-web/ilker.jpg"
+        "urlLink": "assets/works/micro-site/ilker-web/",
+        "imageLink": "assets/works/micro-site/ilker-web/ilker.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Mynet Mail Subscription Micro Site",
         "nameTR": "Mynet Mail Uyelik Mikro Site",
-        "urlLink": "../works/micro-site/mail-setting-pages/",
-        "imageLink": "../works/micro-site/mail-setting-pages/mail-settings.jpg"
+        "urlLink": "assets/works/micro-site/mail-setting-pages/",
+        "imageLink": "assets/works/micro-site/mail-setting-pages/mail-settings.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Forex Advertisement Micro Site",
         "nameTR": "Forex Advertisement Mikro Site",
-        "urlLink": "../works/micro-site/forex/",
-        "imageLink": "../works/micro-site/forex/forex.jpg"
+        "urlLink": "assets/works/micro-site/forex/",
+        "imageLink": "assets/works/micro-site/forex/forex.jpg"
     },
     {
         "type": "micro",
         "nameEN": "Mynet Cinema Mobile Form Micro Site",
         "nameTR": "Mynet Sinema Mobil Formu Mikro Site",
-        "urlLink": "../works/micro-site/sinema-mobile-form/",
-        "imageLink": "../works/micro-site/sinema-mobile-form/sinema-mobil.jpg"
+        "urlLink": "assets/works/micro-site/sinema-mobile-form/",
+        "imageLink": "assets/works/micro-site/sinema-mobile-form/sinema-mobil.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Cinema - Captain America Banner 843x403",
         "nameTR": "Mynet Sinema - Captain America Banner 843x403",
-        "urlLink": "../works/photoshop/banner/captain-america-843x403.jpg",
-        "imageLink": "../works/photoshop/banner/sml/captain-america-843x403.jpg"
+        "urlLink": "assets/works/photoshop/banner/captain-america-843x403.jpg",
+        "imageLink": "assets/works/photoshop/banner/sml/captain-america-843x403.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Cinema - Hobbit Banner 638x200",
         "nameTR": "Mynet Sinema - Hobbit Banner 638x200",
-        "urlLink": "../works/photoshop/banner/hobbit-638x200.jpg",
-        "imageLink": "../works/photoshop/banner/sml/hobbit-638x200.jpg"
+        "urlLink": "assets/works/photoshop/banner/hobbit-638x200.jpg",
+        "imageLink": "assets/works/photoshop/banner/sml/hobbit-638x200.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Cinema - Hobbit Facebook Cover",
         "nameTR": "Mynet Sinema - Hobbit Facebook Cover",
-        "urlLink": "../works/photoshop/facebook-cover/hobbit-facebook-cover.jpg",
-        "imageLink": "../works/photoshop/facebook-cover/sml/hobbit-facebook-cover.jpg"
+        "urlLink": "assets/works/photoshop/facebook-cover/hobbit-facebook-cover.jpg",
+        "imageLink": "assets/works/photoshop/facebook-cover/sml/hobbit-facebook-cover.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "'Mynet Kadin' Book Campaign Banner 843x403",
         "nameTR": "'Mynet Kadın' Book Campaign Banner 843x403",
-        "urlLink": "../works/photoshop/banner/mynet-kadin-kitap-843x403-soru2.jpg",
-        "imageLink": "../works/photoshop/banner/sml/mynet-kadin-kitap-843x403-soru2.jpg"
+        "urlLink": "assets/works/photoshop/banner/mynet-kadin-kitap-843x403-soru2.jpg",
+        "imageLink": "assets/works/photoshop/banner/sml/mynet-kadin-kitap-843x403-soru2.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "'Mynet Kadin' Valentines Day Banner 300x250",
         "nameTR": "'Mynet Kadın' Valentines Day Banner 300x250",
-        "urlLink": "../works/photoshop/banner/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg",
-        "imageLink": "../works/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg"
+        "urlLink": "assets/works/photoshop/banner/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg",
+        "imageLink": "assets/works/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-300x250-Banner.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "'Mynet Kadin' Valentines Day Banner 600x400",
         "nameTR": "'Mynet Kadın' Valentines Day Banner 600x400",
-        "urlLink": "../works/photoshop/banner/mynet-kadin-sevgililer-gunu-600x400.jpg",
-        "imageLink": "../works/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-600x400.jpg"
+        "urlLink": "assets/works/photoshop/banner/mynet-kadin-sevgililer-gunu-600x400.jpg",
+        "imageLink": "assets/works/photoshop/banner/sml/mynet-kadin-sevgililer-gunu-600x400.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Cinema App Store iPhone 4 Screen",
         "nameTR": "Mynet Sinema App Store iPhone 4 Screen",
-        "urlLink": "../works/photoshop/itunes/iphone-4-mynet-sinema-app-3.jpg",
-        "imageLink": "../works/photoshop/itunes/sml/iphone-4-mynet-sinema-app-3.jpg"
+        "urlLink": "assets/works/photoshop/itunes/iphone-4-mynet-sinema-app-3.jpg",
+        "imageLink": "assets/works/photoshop/itunes/sml/iphone-4-mynet-sinema-app-3.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Sinema App Store iPhone 5 Screen",
         "nameTR": "Mynet Sinema App Store iPhone 5 Screen",
-        "urlLink": "../works/photoshop/itunes/iphone-5-mynet-sinema-app-3.jpg",
-        "imageLink": "../works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-3.jpg"
+        "urlLink": "assets/works/photoshop/itunes/iphone-5-mynet-sinema-app-3.jpg",
+        "imageLink": "assets/works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-3.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Ciname App Store iPhone 4 Screen",
         "nameTR": "Mynet Sinema App Store iPhone 4 Screen",
-        "urlLink": "../works/photoshop/itunes/iphone-4-mynet-sinema-app-2.jpg",
-        "imageLink": "../works/photoshop/itunes/sml/iphone-4-mynet-sinema-app-2.jpg"
+        "urlLink": "assets/works/photoshop/itunes/iphone-4-mynet-sinema-app-2.jpg",
+        "imageLink": "assets/works/photoshop/itunes/sml/iphone-4-mynet-sinema-app-2.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Ciname App Store iPhone 5 Screen",
         "nameTR": "Mynet Sinema App Store iPhone 5 Screen",
-        "urlLink": "../works/photoshop/itunes/iphone-5-mynet-sinema-app-2.jpg",
-        "imageLink": "../works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-2.jpg"
+        "urlLink": "assets/works/photoshop/itunes/iphone-5-mynet-sinema-app-2.jpg",
+        "imageLink": "assets/works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-2.jpg"
     },
     {
         "type": "photoshop",
         "nameEN": "Mynet Cinema App Store iPhone 5 Screen",
         "nameTR": "Mynet Sinema App Store iPhone 5 Screen",
-        "urlLink": "../works/photoshop/itunes/iphone-5-mynet-sinema-app-1.jpg",
-        "imageLink": "../works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-1.jpg"
+        "urlLink": "assets/works/photoshop/itunes/iphone-5-mynet-sinema-app-1.jpg",
+        "imageLink": "assets/works/photoshop/itunes/sml/iphone-5-mynet-sinema-app-1.jpg"
     },
     {
         "type": "html",
         "nameEN": "Mynet Magazine Service - Birbak",
         "nameTR": "Mynet Magazine Service - Birbak",
-        "urlLink": "../works/html-site/birbak/",
-        "imageLink": "../works/html-site/birbak/birbak.jpg"
+        "urlLink": "assets/works/html-site/birbak/",
+        "imageLink": "assets/works/html-site/birbak/birbak.jpg"
     },
     {
         "type": "html",
         "nameEN": "Mynet Sport Service",
         "nameTR": "Mynet Spor Servisi",
-        "urlLink": "../works/html-site/spor/",
-        "imageLink": "../works/html-site/spor/spor.jpg"
+        "urlLink": "assets/works/html-site/spor/",
+        "imageLink": "assets/works/html-site/spor/spor.jpg"
     },
     {
         "type": "html",
         "nameEN": "Mynet Cinema Service",
         "nameTR": "Mynet Sinema Servisi",
-        "urlLink": "../works/html-site/sinema/",
-        "imageLink": "../works/html-site/sinema/sinema.jpg"
+        "urlLink": "assets/works/html-site/sinema/",
+        "imageLink": "assets/works/html-site/sinema/sinema.jpg"
     },
     {
         "type": "html",
         "nameEN": "Easteacan - Music Group",
         "nameTR": "Easteacan - Muzik Grubu",
-        "urlLink": "../works/html-site/easteacan/",
-        "imageLink": "../works/html-site/easteacan/easteacan.jpg"
+        "urlLink": "assets/works/html-site/easteacan/",
+        "imageLink": "assets/works/html-site/easteacan/easteacan.jpg"
     },
     {
         "type": "html",
         "nameEN": "Wuely - Web Project",
         "nameTR": "Wuely - Web Projesi",
-        "urlLink": "../works/html-site/wuely/",
-        "imageLink": "../works/html-site/wuely/wuely.jpg"
+        "urlLink": "assets/works/html-site/wuely/",
+        "imageLink": "assets/works/html-site/wuely/wuely.jpg"
     },
     {
         "type": "wordpress",
         "nameEN": "'Birun Kümbet' Wordpress Theme Implementation",
         "nameTR": "'Birun Kümbet' Wordpress Tema Implementasyonu",
         "urlLink": "http://birun.com/en/",
-        "imageLink": "../works/wordpress-uyarlama/brn-big.jpg"
+        "imageLink": "assets/works/wordpress-uyarlama/brn-big.jpg"
     },
     {
         "type": "wordpress",
         "nameEN": "'Pehlivanproje' Wordpress Theme Implementation",
         "nameTR": "'Pehlivanproje' Wordpress Tema Implementasyonu",
         "urlLink": "http://pehlivanproje.com/",
-        "imageLink": "../works/wordpress-uyarlama/pehlivanproje.jpg"
+        "imageLink": "assets/works/wordpress-uyarlama/pehlivanproje.jpg"
     }
 ]
