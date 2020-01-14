@@ -1,0 +1,189 @@
+*{-webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;o-font-smoothing: antialiased;font-smoothing: antialiased;outline:none}
+.full-login-background {
+	background: url('../img/reidimap-login-back.jpg') no-repeat;
+	background-size: cover;
+}
+
+.logo-image, .footer-logo, .form-head .icon-area:before {
+    background: url(../img/sign-up-sprite.png) no-repeat;
+    display: flex;
+}
+
+.logo-image {
+    background-position: 0 0;
+    width: 150px;
+    height: 57px;
+}
+
+.footer-logo {
+    background-position: 0 -76px;
+    width: 45px;
+    height: 20px;
+}
+
+.form-head .icon-area:before {
+	content: "";
+	background-position: 0 -57px;
+	width: 20px;
+	height: 19px;
+	margin-top: 9px;
+    margin-left: 10px;
+}
+
+.form-head {
+	height: 129px;
+}
+
+.form-head .icon-area {
+	background-color: #93AF34;
+	width: 40px;
+	height: 40px;
+}
+
+.language-selection {
+	box-shadow: inset 0px 7px 11px -7px #333;
+	border-radius: 0 0 3px 3px;
+}
+
+.language-selection button {
+	min-width: 25px;
+}
+
+.language-selection button.transparent-back:hover {
+	color: #333 !important;
+}
+
+.transparent-back.active-language {
+	background-color: rgba(255,255,255,0.9) !important;
+	color: #333 !important;
+}
+
+.form-area {
+	max-width: 377px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.form-head {
+	background: url(../img/form-head.png) no-repeat;
+	display: flex;
+	background-size: cover;
+}
+
+.form-area .form-control {
+	border: 0 !important;
+	color: #242424;
+}
+
+.form-control:focus {
+    border-color: transparent !important;
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.collector {
+	min-height: 84px;
+	height: calc(100vh - 882px);
+}
+
+/* clicker area */
+.clicker-area {
+    z-index: 3;
+    background-color: #2954a5;
+}
+
+.clicker-area .show-form {
+	min-height: 100px;
+	width: 100%;
+	background: url(../img/form-head.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	z-index: 4;
+}
+
+.downArrow {
+	position: relative;
+	bottom: 0;
+	margin-top: 10px;
+}
+
+.downArrow i {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    border-color: #fff;
+    margin-left: 11px;
+}
+
+.downArrow .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.bx-wrapper {
+    box-shadow: none !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+.banner-item {
+  width: 100% !important;
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}

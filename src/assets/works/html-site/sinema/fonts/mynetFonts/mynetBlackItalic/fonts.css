@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Conv_MyNetBlaIt';
+	src: url('MyNetBlaIt.eot');
+	src: local('☺'), url('MyNetBlaIt.woff') format('woff'), url('MyNetBlaIt.ttf') format('truetype'), url('MyNetBlaIt.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

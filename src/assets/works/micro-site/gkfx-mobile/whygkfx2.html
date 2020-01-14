@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GKFX</title>
+
+<meta name="viewport" content="width=device-width,maximum-scale=0.5, minimum-scale=0.5,initial-scale=0.5" />
+
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/swiper.css">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	
+
+  var mySwiper = $('.swiper-container').swiper({
+    //Your options here:
+    mode:'horizontal',
+    loop: true,
+	createPagination: true,
+	pagination: '.pagination',
+    grabCursor: true,
+    paginationClickable: true,
+	autoplay: 6000
+  });
+  
+  	$(".main-nav").height($(".contentContainer").height())
+	$(".main-nav_link").click(function(e) {
+		$(".contentContainer").toggleClass("mainNavOpened");  
+		$(".main-nav").fadeIn();});
+	
+});
+</script>
+
+<script>
+function goBack()
+  {
+  window.history.back()
+  }
+</script>
+
+</head>
+
+<body>
+	<div class="mainDiv">
+    	<nav class="main-nav" id="main-nav">
+        	<div class="relative cf">
+            	<img class="sideShadow" src="img/sideShadow.png">
+                
+                <ul>
+                	<li><a href="demo_account.html"><div> </div>Open Demo Acount</a></li>
+                    <li><a href="index.html"><div><img src="img/sideIcon1.png"></div>Home</a></li>
+                    <li><a href="contact.html"><div><img src="img/sideIcon2.png"></div>Contact GKFX</a></li>
+                    <li><a href="why_gkfx.html"><div><img src="img/sideIcon3.png"></div>Why GKFX</a></li>
+                    <li><a href="all_platforms.html"><div><img src="img/sideIcon4.png"></div>Mobile Platforms</a></li>
+                    <li><a href="risk_Warning.html"><div><img src="img/sideIcon5.png"></div>Risk Warning</a></li>
+                    <li><a href="privacy_policy.html"><div><img src="img/sideIcon6.png"></div>Privacy Policy</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contentContainer">
+            <header class="cf">
+                <a class="main-nav_link" href="#"> </a>
+                <a class="logo" href="#"> </a>
+                <a class="callUs" href="tel:+44 (0) 20 7186 1212"> </a>
+            </header>
+            <div class="content cf">
+            	<div class="innerHeader">
+                	<a onclick="goBack()" class="backLink">
+                    	<img src="img/backIcon.png">
+                    </a>
+                    <h1>Why <strong>GKFX</strong></h1>
+                    <a href="index.html" class="homeLink">
+                    	<img src="img/homeIcon.png">
+                    </a>
+                </div>
+            	<div class="padding30 cf">   
+                	<h2 class="arrowListTitle">Reliable, professional & secure</h2>
+                	<ul class="arrowListStyle">               
+                        <li>FSA regulated.</li>
+                        <li>100% segregation of all retail client funds</li>
+                        <li>State of the art charting.</li>
+                        <li>Back testing tools to test trading theories.</li>
+                        <li>24 hr coverage.</li>
+                        <li>Up to date financial News</li>
+                        <li>Free online education.</li>
+                        <li>Demo Account - try before you trade.</li>
+                        <li>No stamp duty on UK shares.</li>
+                        <li>GKFX is the principle in all trades, adding to market     	   liquidity.</li>
+                    </ul>
+                    <h2 class="arrowListTitle">Competitive trading terms </h2>
+                	<ul class="arrowListStyle">               
+                        <li>Instant execution.</li>
+                        <li>Scalping allowed</li>
+                        <li>No restrictions on Expert Advisors </li>
+                        <li>Leverage up to 1:400</li>
+                        <li>No minimum deposit requirement to open account.</li>
+                        <li>No minimum account size.</li>
+                        <li>Tight Spreads.</li>
+                        <li>No fees or commissions.</li>
+                        <li>Multi currency accounts.</li>
+                        <li>Trailing stops.</li>
+                        <li>Full range of popular markets.</li>
+                        <li>Competitive margins.</li>
+                        <li>Cherry Picking - choose which positions to close.</li>
+                        <li>Expert Advisors - available on MT4.</li>
+                        <li>Competitive financing.(SWAP-overnight financing)</li>
+					</ul>
+                    <h2 class="arrowListTitle">Wide choice of instruments </h2>
+                    <ul class="arrowListStyle">               
+                        <li>Forex: 107 currency pairs</li>
+                        <li> Spread betting: 34 currency pairs </li>
+                        <li>Forex spread betting on MT4 in the UK</li>
+                        <li>Precious metals: Gold and silver</li>
+                        <li>CFDs: Access to worlds most popular markets</li>
+                    </ul>
+                    <h2 class="arrowListTitle">Multiple trading platforms</h2>
+                    <ul class="arrowListStyle">              
+                        <li>World renowned MT4 trading platform.</li>
+                        <li>MetaTrader MultiTerminal</li>
+                        <li>WebTrader</li>
+                        <li>MyFX</li>
+                        <li>MetaTrader Mobile apps available: 
+                           <ul class="arrowListSubStyle">
+                           		<li>Iphone</li>
+                           		<li>Ipad</li>
+                           		<li>Android smart phones</li>
+                           		<li>Android tablets</li>
+                           </ul>
+                       </li>
+                    </ul>
+					<h2 class="arrowListTitle">World class client support</h2>
+                    <ul class="arrowListStyle">              
+                        <li>Multilingual support specialists</li>
+                        <li>Dedicated Client Services team</li>
+                        <li>World wide IT support desk availability</li>
+                    </ul>
+                </div>
+            </div>
+            <footer>
+            	<div class="padding40_30">
+                	<div>
+                    	<p>
+                            GKFX Financial Services Ltd <br>
+                            30 Charles II Street, London, SW1Y 4AE<br>
+                            Tel: <a href="tel:+44 (0) 20 7186 1212">+44 (0) 20 7186 1212</a>, Fax: +44 (0) 207 186 1251 <br>
+                            Registration Number: 6837942.<br><br>
+                            
+                            Authorised and regulated by the Financial Services Authority. <br>FSA registration number 501320.
+                        </p>
+                    </div>
+                    <p><strong>RISK WARNING</strong>: All financial products traded on margin carry a high degree of risk to your capital. They are not suited to all investors and you can lose more than your initial deposit. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. See our full risk warning on our Terms of Business.</p>
+                </div>
+                <div class="f_social center">
+                	<ul>
+                    	<li><a href="#"><img src="img/facebook.png"></a></li>
+                        <li><a href="#"><img src="img/twitter.png"></a></li>
+                        <li><a href="#"><img src="img/youtube.png"></a></li>
+                        <li><a href="#"><img src="img/googleplus.png"></a></li>
+                    </ul>
+                </div>
+                <div class="footerBottom">
+                	<span>© 2013 GKFX</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+			
+			
+</body>
+</html>

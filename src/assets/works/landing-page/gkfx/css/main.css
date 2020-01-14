@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, form, label {margin:0; padding:0; border:0;}
+:focus {outline:0;}
+body {background:#ffffff no-repeat center top; font-size:10px; font-family:Arial,Helvetica,sans-serif; color:#3c3c3c;}
+ol, ul {list-style:none; padding:0; margin:0;}
+table {border-collapse:collapse;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a {text-decoration:none; color:#676e7c;}
+h1, h2, h3, h4, h5 { font-weight: normal; }
+
+.centerDiv { display: inline-block; position:relative; zoom: 1; *display: inline; }
+
+.clear{clear:both;}
+.cf:before, .cf:after {content: " "; /* 1 */ display: table; /* 2 */  }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+.verticalExtend:before, .verticalExtend:after, .horizontalExtend:before, .horizontalExtend:after{ content: " "; display: table; }
+.verticalExtend:after,.horizontalExtend:after { clear: both; }
+.verticalExtend, .horizontalExtend { *zoom: 1; position:relative;  }
+.verticalExtend { background-image:url(expand_right.jpg); background-repeat: no-repeat; background-position:top left; float: left; margin-right:6px;  height: 50px; }
+.verticalExtend:hover { background-position: bottom left; }
+.verticalExtend a { float: left; padding: 0 6px 0 6px; height: 100%; }
+.verticalExtendRight { background-image: inherit; background-position: top right; background-repeat: inherit; position:absolute; right: -6px; top: 0; height: 100%; width: 8px; }
+.verticalExtend:hover .verticalExtendRight { background-position: bottom right; }
+
+.mainDiv { width: 980px; margin: 0 auto; }
+.header, .banner, .content, .footer { width: 100%; float: left; }
+
+.header { height:75px; background:#ffffff; position:relative;}
+.logo { float: left; font-family: 'HelveticaLTStdBoldCondensed'; margin-top: 13px; } 
+.logo a { display:block; position:relative; float: left; padding-right: 12px; background: url(../img/logoBorderBg.png) right center no-repeat; margin-right:14px;}
+.logo a span { position: absolute; top: 54px; left: 3px; color: #7c7c7c; font-size: 12px; }
+.logo h2 { float: left; line-height: 54px; color: #282828; font-size:18px; font-weight:normal; }
+.logo2 { float: left; font-family: 'HelveticaLTStdBoldCondensed'; margin-top: 30px; }
+.logo2 img { float: left }
+.logo2 span { float: left; line-height: 18.4px; padding: 18px 0; color: #282828; font-size: 17px; }
+
+.headerLinks { float: right; margin-top: 14px; }
+.headerLinks ul { float: left; margin-top:16px; }
+.headerLinks li { float: left; }
+.headerLinks li a { float: left; padding: 0 7px 0 26px; margin-right: 7px; background-repeat: no-repeat; background-position: top left; color: #2f2f2f; font-size: 11px; height: 20px; line-height:20px; border-right: 1px solid #2f2f2f; position:relative;}
+.headerLinks li:last-child a { border-right: none; }
+.headerLinks li a:hover { opacity: 0.8; }
+.headerLinks li .dblRow { line-height: 10px; }
+.headerLinks li .header_contact { background-image: url(../img/headerIcon_contact.png); }
+.headerLinks li .header_requestCallback { background-image: url(../img/headerIcon_letUsCallYou.png); }
+.headerLinks li .header_phone {background-image: url(../img/headerIcon_phone.png);  }
+.headerLinks li .header_liveChat { background-image: url(../img/headerIcon_liveChat.png); background-position: left 4px; }
+
+.joinBtn { background: url(../img/joinBtn.png) no-repeat top left; height: 48px; line-height:15px; width: 140px; font-size:11px; color: #ffffff; font-family: 'helvetica_lt_stdbold', Arial;  float:left; position:relative; letter-spacing:-1px; z-index:20;}
+
+.banner { height:248px; position:relative; overflow:hidden; background: #f19e20; height:332px;}
+.banner img { position:absolute; }
+.bannerBg { right: 0; top: 0; display:none; }
+.money { left: -200px; bottom: -200px; }
+.man { right: -200px; bottom: 0; }
+.woman { right: -240px; bottom: 0; }
+.text1 { left: 144px; top: -80px; }
+.text2 { left: 144px; top: 100%; }
+
+
+.content { background: #f3f3f3 url(../img/content_bg.jpg) repeat; position:relative; margin-top:2px;}
+
+.formArea { margin:14px 30px; width: 920px;}
+.formContentPadding { padding: 10px 20px 20px 20px; }
+.inputDiv { float: left; height: 39px; margin-bottom: 10px; margin-right: 10px; width:227px;}
+.marginr10px { margin-right: 10px; }
+.inputTitle { width: 45px; height: 30px; float: left; background-position: left top; background-repeat:no-repeat; }
+.inputTitle1 { background-image: url(../img/inputName.png); }
+.inputTitle2 { background-image: url(../img/inputMail.png); }
+.inputTitle3 { background-image: url(../img/inputPhone.png); }
+.inputTitle4 { background-image: url(../img/inputSurname.png); }
+.inputDiv input { border: 1px solid #d3d3d3; margin: 0; padding: 0 0 0 15px; float: left; width: 212px; height: 37px; font-size:14px;}
+.inputDivLong input { border-left: none; width: 146px; }
+.inputDivLong input.code { background: #f3f3f3; width: 49px; border-left: 1px solid #d3d3d3;border-right: none;}
+.formContentInner{float:left; width:715px;}
+
+.checkDiv {color: #767676; font-size: 12px; margin:5px 0; float:left; line-height:30px;}
+.bonusBtn { width: 203px; height: 72px; padding-top: 15px; background:url(../img/bonusBtn.png) top left no-repeat; float:right;  font-family: 'helvetica_lt_stdbold', Arial; font-size: 27px; line-height:27px; color: #fff; text-align:center; }
+.bonusBtn:hover { background-position:0 -87px; }
+
+.form_Title{line-height:40px; font-size:22px; color:#123c6b; text-align:center; height:50px;}
+.form_Title ul li{float:left; margin-left:15px;}
+.title_arrow{background:url(../img/title_arrow.png) left center no-repeat; padding:0 0 0 28px;}
+
+/*Second Content Area*/
+.secondContentArea{margin-top:2px; background-color:#f3f3f3; padding:12px 30px 30px 30px; float:left; width:920px;}
+.title{font-family: 'FuturaStdMedium'; font-size:23px; text-align:center; font-weight:normal; color:#123c6b; line-height:50px; margin-bottom:5px;}
+.title span{ font-family:'futurastdBold',Arial;}
+.secondContentArea ul li{color:#303030; font-family: 'FuturaStdBook',Arial; background:url(../img/tic_green.png) 30px top no-repeat; padding-left:60px; font-size:18px; float:left; border-left:solid 1px #bdbdbd;margin-left:27px;}
+.secondContentArea ul li:first-child{border:0; margin:0; background:url(../img/tic_green.png) 0 top no-repeat; padding-left:30px;}
+
+
+/*Footer*/
+.footer { float: left; width: 100%; padding-top: 30px; background: #163e6a; color: #ffffff; }
+.wrapper { padding: 0 30px; }
+.footer a{ color: #ffffff; }
+.footerPt1 { width: 100%; float: left; padding-bottom: 20px; border-bottom: 1px solid #456588; margin-bottom: 20px; font-size: 11px; }
+.footerPt2 { width: 100%; float: left; padding-bottom: 20px; font-size: 11px; }
+.footerPt4 { float: left; width: 100%; padding: 16px 0; background: #123760; color: #ffffff; }
+.logoFooter { float: left; line-height:34px; font-size: 15px; font-family: helvetica, arial, sans-serif; font-weight:bold; font-size: 11px; }
+.footerSocial { float: right; }
+.socialDiv { float: left; margin-left:10px;  }
+.socialDiv img { float: left; margin-right:3px; }
+.socialDiv span { float: left; line-height:34px; font-size: 15px; font-family: 'KlavikaMedium', Arial; font-weight:normal; }
+.socialDiv a span { color: #ffffff;  }
+.socialDiv a:hover span { color: #CCC;  }
+
+.bottom { width: 980px; margin: 0 auto; }
+.bottomLeft { float: left;margin-top: 23px;  }
+.bottomRight { float: right; margin-bottom:14px; margin-top:14px; }
+.bottomRight p { font-size: 12px; color: #123760; float: left; margin-top: 5px; text-align:center; margin-left: 10px;}
+.bottomRight img { float: left; }	
+
+/*Checkbox*/
+	label.checkbox span.holder {height: 61px; background: url(../img/checkboxBg.png) left top no-repeat;}	
+
+	label.checked span.holder,
+	label.checked span.holder,
+	label.checked:hover span.holder,
+	label.checked:hover span.holder { background-position:0 -50px;} /* Background position when checked */
+
+	label.list {float: left; clear: left;margin: 0 0 5px 0;}
+	
+	label.inline {float: left; margin: 0 10px 0 0;	}
+	
+		input.hiddenCheckbox {
+			position: absolute; left: -10000px; 
+		}
+	
+		label.prettyCheckbox span.holderWrap {
+			display: block; float: left;
+			position: relative;
+			overflow: hidden; width:30px !important; height:28px !important;
+		}
+		
+		label.prettyCheckbox span.holder {
+			display: block;
+			position: absolute;
+			top: 0; left: 0; width:30px !important;
+		}
+
+
+
+
+
+
+
+
+
+

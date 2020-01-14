@@ -1,0 +1,46 @@
+body{background:#fff url(../img/465976999-santa-back.jpg);position:relative;max-height: 900px}
+.shadowNavArea{box-shadow:0 2px 6px #333;border-radius:0!important;height:auto;background-color:rgba(255,255,255,0.6);border:none;padding-bottom:40px;position:relative;z-index:3}
+h1,h2{text-align:center;text-shadow:1px 1px 1px #fff}
+h1{text-transform:uppercase}
+h2{color:#525252}
+.santaForm{background:url(../img/465976999-santa-board.png) top center no-repeat;background-position:212px 0;height:815px;position:relative;top:-175px;z-index:2}
+.santaGround{background:url(../img/465976999-ground.png) top center no-repeat;background-size:cover;height:243px;width:100%}
+.form-signin input[type="text"]{margin-bottom:5px;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.form-signin input[type="password"]{margin-bottom:10px;border-top-left-radius:0;border-top-right-radius:0}
+.form-signin .form-control{position:relative;font-size:16px;font-family:'Open Sans',Arial,Helvetica,sans-serif;height:auto;padding:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.vertical-offset-100{padding-top:271px}
+.img-responsive{display:block;max-width:100%;height:auto;margin:auto}
+.panel{margin-bottom:20px;background-color:transparent;border:1px solid transparent;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)}
+.panel-default>.panel-heading{background-color:transparent!important}
+footer{width:100%;height:243px;overflow:hidden;position:absolute;bottom:-35px}
+textarea{resize:none}
+.omb_login .omb_socialButtons a {color: white;opacity:0.9}
+.omb_login .omb_socialButtons a:hover {color: white;opacity:1}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+.omb_socialButtons small{font-size: 12px!important}
+.shareIt{color: #D37680;text-shadow:1px 1px 1px #fff}
+#footer{border-top:1px solid #ccc;color:#999;font-size:14px;line-height:30px;padding:30px 0;text-align:center;border-top:0;text-align:left}
+#footer a:link,#footer a:visited{color:inherit}
+.copyright{clear:left;float:left;margin-left:15px;position: relative;top: 75%}
+#footer span{margin:0 5px}
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    body{max-height: 1350px}
+    .santaForm{background: url("../img/465976999-board-sml.png") top center no-repeat;background-size: cover;min-height: 1350px;min-height: 100%;height:auto}
+    .vertical-offset-100 {padding-top: 600px}
+    .santaGround{display:none}
+}
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    .santaForm{min-height:900px}
+    .vertical-offset-100 {padding-top: 400px}
+    }
+@media screen and (min-width: 461px) and (max-width: 639px) {
+    .santaForm{min-height:900px}
+    .vertical-offset-100 {padding-top: 425px}
+    }
+@media screen and (min-width: 640px) and (max-width: 989px) {
+    .santaForm{min-height:1250px}
+    .vertical-offset-100 {padding-top: 750px}
+    }

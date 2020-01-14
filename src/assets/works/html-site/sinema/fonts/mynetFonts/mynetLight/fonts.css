@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Conv_MyNetLig';
+	src: url('MyNetLig.eot');
+	src: local('☺'), url('MyNetLig.woff') format('woff'), url('MyNetLig.ttf') format('truetype'), url('MyNetLig.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

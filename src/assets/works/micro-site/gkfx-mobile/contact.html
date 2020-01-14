@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GKFX</title>
+
+<meta name="viewport" content="width=device-width,maximum-scale=0.5, minimum-scale=0.5,initial-scale=0.5" />
+
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/swiper.css">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	
+
+  var mySwiper = $('.swiper-container').swiper({
+    //Your options here:
+    mode:'horizontal',
+    loop: true,
+	createPagination: true,
+	pagination: '.pagination',
+    grabCursor: true,
+    paginationClickable: true,
+	autoplay: 6000
+  });
+  
+  	$(".main-nav").height($(".contentContainer").height())
+	$(".main-nav_link").click(function(e) {
+		$(".contentContainer").toggleClass("mainNavOpened");  
+		$(".main-nav").fadeIn();});
+	$(window).scroll(function(e) {
+		if (($(window).scrollTop() == 0))
+		{ $(".bottomBar").stop().animate({bottom:"-85px"}) }
+		else if (($(window).scrollTop() > 0))
+        { $(".bottomBar").stop().animate({bottom:"0px"}) }
+    });
+	$("select").each(function(index, element) {
+		$(this).siblings(".selected").html($(this).find(":selected").text())
+    });
+	$('select').change(function() {
+		$(this).siblings(".selected").html($(this).find(":selected").text())
+	});
+});
+</script>
+
+<script>
+function goBack()
+  {
+  window.history.back()
+  }
+</script>
+
+</head>
+
+<body>
+	<div class="mainDiv">
+    	
+        <div class="contentContainer">
+            <header class="cf">
+                <a class="main-nav_link" href="#"> </a>
+                <a class="logo" href="index.html"> </a>
+                <a class="callUs" href="tel:+44 (0) 20 7186 1212"> </a>
+            </header>
+            <div class="content cf">
+            	<div class="innerHeader">
+                	<a onclick="goBack()" class="backLink">
+                    	<img src="img/backIcon.png">
+                    </a>
+                    <h1>Demo Account</h1>
+                    <a href="index.html" class="homeLink">
+                    	<img src="img/homeIcon.png">
+                    </a>
+                </div>
+            	<div class="padding45_35 cf">   
+                    <div class="inputLine inputLineAdress">
+                    	<span class="inputTitle">
+                        	Title
+                        </span>
+                        <div class="selectBg cf">
+                        	<span class="selected"></span>
+                            <select>
+                                <option>Mr</option>
+                                <option>Mrs</option>
+                                <option>Miss</option>
+                                <option>Doc</option>
+                            </select>
+                        </div>
+                        <p class="contact_adress">
+                        	4 - 16 Regent Street, London. SW1Y 4PH <br>United Kingdom
+                        </p>
+                        <span class="contact_telephone">
+                        	 <a href="tel:+44 (0) 20 7747 5222">44 (0) 20 7747 5222</a>
+                        </span>
+                    </div>
+                    <div class="inputLine">
+                    	<span class="inputTitle">
+                        	Name
+                        </span>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputLine">
+                    	<span class="inputTitle">
+                        	E-mail
+                        </span>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputLine">
+                    	<span class="inputTitle">
+                        	Phone Number
+                        </span>
+                        <input type="text" placeholder="Surname">
+                    </div>
+                    <div class="inputLine">
+                    	<span class="inputTitle">
+                        	Chose Department
+                        </span>
+                        <div class="selectBg cf">
+                        	<span class="selected"></span>
+                            <select>
+                                <option>Sales</option>
+                                <option>Marketing</option>
+                                <option>IT</option>
+                                <option>EUR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputLine">
+                    	<span class="inputTitle">
+                        	Message
+                        </span>
+                        <textarea></textarea>
+                    </div>
+                    
+                    <div class="alignCenter cf"><a href="#" class="contactSend centerDiv">Send</a></div>
+                </div>
+                <div class="contactEmails">
+                	<ul>
+                    	<li><a href="mailto:lorem@gkfx.com"><span>General Mail</span></a></li>
+                        <li><a href="mailto:lorem@gkfx.com"><span>New Accounts</span></a></li>
+                        <li><a href="mailto:lorem@gkfx.com"><span>Dealing Queries</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <footer>
+            	<div class="padding40_30">
+                	<div>
+                    	<p>
+                            GKFX Financial Services Ltd <br>
+                            30 Charles II Street, London, SW1Y 4AE<br>
+                            Tel: <a href="tel:+44 (0) 20 7186 1212">+44 (0) 20 7186 1212</a>, Fax: +44 (0) 207 186 1251 <br>
+                            Registration Number: 6837942.<br><br>
+                            
+                            Authorised and regulated by the Financial Services Authority. <br>FSA registration number 501320.
+                        </p>
+                    </div>
+                    <p><strong>RISK WARNING</strong>: All financial products traded on margin carry a high degree of risk to your capital. They are not suited to all investors and you can lose more than your initial deposit. Please ensure that you fully understand the risks involved, and seek independent advice if necessary. See our full risk warning on our Terms of Business.</p>
+                </div>
+                <div class="f_social center">
+                	<ul>
+                    	<li><a href="#"><img src="img/facebook.png"></a></li>
+                        <li><a href="#"><img src="img/twitter.png"></a></li>
+                        <li><a href="#"><img src="img/youtube.png"></a></li>
+                        <li><a href="#"><img src="img/googleplus.png"></a></li>
+                    </ul>
+                </div>
+                <div class="footerBottom">
+                	<span>© 2013 GKFX</span>
+                </div>
+            </footer>
+        </div>
+        <div class="bottomBar">
+        	<div class="relative cf">
+                <a onclick="goBack()" class="backLink center">
+                    <img src="img/backIcon_grey.png">
+                </a>
+               
+                <a href="index.html" class="homeLink center">
+                    <img src="img/homeIcon_grey.png">
+                </a>
+            </div>
+        </div>
+        <nav class="main-nav" id="main-nav">
+        	<div class="relative cf">
+            	<img class="sideShadow" src="img/sideShadow.png">
+                
+                <ul>
+                	<li><a href="demo_account.html"><div> </div>Open Demo Acount</a></li>
+                    <li><a href="index.html"><div><img src="img/sideIcon1.png"></div>Home</a></li>
+                    <li><a href="contact.html"><div><img src="img/sideIcon2.png"></div>Contact GKFX</a></li>
+                    <li><a href="why_gkfx.html"><div><img src="img/sideIcon3.png"></div>Why GKFX</a></li>
+                    <li><a href="all_platforms.html"><div><img src="img/sideIcon4.png"></div>Mobile Platforms</a></li>
+                    <li><a href="risk_Warning.html"><div><img src="img/sideIcon5.png"></div>Risk Warning</a></li>
+                    <li><a href="privacy_policy.html"><div><img src="img/sideIcon6.png"></div>Privacy Policy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+			
+			
+</body>
+</html>

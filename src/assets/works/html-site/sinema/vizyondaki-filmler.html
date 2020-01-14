@@ -1,0 +1,1370 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mynet Sinema - Vizyondaki Filmler</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetLight/fonts.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetBold/fonts.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetRegular/fonts.css"/>
+    <link rel="stylesheet" href="fonts/glyphicons/glyphicons.css"/>
+    <link rel="stylesheet" href="fonts/glyphicons/glyphicons-social.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="js/jquery-1.11.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/css-browser-selector.js"></script>
+
+    <script>
+        jQuery(window).load(function() {
+            /*temsili search*/
+            jQuery('.searchButtonArea').click(function () {
+                // e.preventDefault();
+                jQuery('.nav.navbar-nav.navbar-right').toggle('fast');
+            });
+
+            jQuery(function() {
+                jQuery(".closeResults").hide();
+                jQuery(".form-control").keypress(function(){
+                    jQuery(".closeResults").toggle('fast');
+                });
+            });
+            /*temsili search END*/
+        });
+
+    </script>
+
+
+</head>
+<body class="theatreMovies">
+
+        <header>
+
+            <div class="container headerAdArea">
+                <div class="row">
+                    <a class="navbar-brand" href="./"><span></span>
+
+                <p>Türkiye'nin Sinema Rehberi</p></a>
+
+                    <div id="adAreaHeader">
+                        <a href="./">
+                            <img src="img/header-reklam.jpg" alt=""/>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container headerCustom">
+                <div class="row">
+
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <div class="tablet-size-border">
+                                    <ul class="nav navbar-nav">
+                                        <li class="first-element"><a class="glyphicons home" href="./"></a></li>
+                                        <li class="active"><a href="./vizyondaki-filmler.html">VİZYONDAKİ FİLMLER</a></li>
+                                        <li><a href="./sinemalar.html">SİNEMALAR</a></li>
+                                        <li><a href="./fragmanlar.html">FRAGMANLAR</a></li>
+                                        <li><a href="./vizyona-girecek-filmler.html">VİZYONA GİRECEK FİLMLER</a></li>
+                                        <li><a href="./galeri.html">GALERİ</a></li>
+                                        <li><a href="./haberler.html">HABERLER</a></li>
+                                        <li><a href="./film-arsivi.html">FİLM ARŞİVİ</a></li>
+										<li><a href="./uye-detay.html">PROFİLİM</a></li>
+                                        <li><a href="./yardim.html">YARDIM</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="searchButtonArea search">
+
+                                </div>
+
+                                <ul class="nav navbar-nav navbar-right">
+                                    <form class="navbar-form navbar-left" role="search">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Film, Sinema, Sanatçı Ara">
+                                        </div>
+                                    </form>
+                                    <!--search results-->
+                                    <div class="closeResults">
+                                        <ul>
+                                            <li id="element-1">
+                                                <a href="./vizyondaki-filmler-detay.html"><img src="http://tr.web.img1.acsta.net/c_75_100/pictures/14/04/07/16/24/391875.jpg">
+                                                <span class="text">
+                                                    <span class="title">İnanılmaz Örümcek-Adam 2</span>
+                                                    <span class="info blue">The Amazing Spider-Man 2</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2013</span>
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li id="element-2">
+                                                <a href="./vizyondaki-filmler-detay.html">
+                                                    <img src="http://tr.web.img1.acsta.net/c_75_100/medias/nmedia/18/85/31/56/20125440.jpg">
+                                                <span class="text">
+                                                    <span class="title">İnanılmaz Örümcek Adam</span>
+                                                    <span class="info blue">The Amazing Spider-Man</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2012</span>
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li id="element-3">
+                                                <a href="./vizyondaki-filmler-detay.html">
+                                                    <img src="http://tr.web.img3.acsta.net/c_75_100/pictures/bzp/03/118961.jpg">
+                                                <span class="text">
+                                                    <span class="title">Spiderwick Günceleri</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2011</span>
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li id="element-4">
+                                                <a href="./vizyondaki-filmler-detay.html">
+                                                    <img src="http://tr.web.img3.acsta.net/c_75_100/pictures/bzp/05/205632.jpg">
+                                                <span class="text"><span class="title">Camel Spiders</span>
+                                                    <span class="info blue">(Camel Spiders)</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2010</span>
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li class="submit">
+                                                <a href="./arama-sayfasi.html" class="link_arrow_r"><strong>spid</strong> için tüm sonuçlar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--search results END-->
+                                </ul>
+                            </div>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+
+        <!--breadcrumb-->
+        <div class="container breadCrumb">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="./">Sinema</a></li>
+                    <li class="active">Vizyondaki Filmler</li>
+                </ol>
+            </div>
+        </div>
+        <!--breadcrumb END-->
+
+        <!--body area-->
+        <div class="container">
+                <div class="row mainRow">
+
+                <!--body left section-->
+
+                    <div class="bodyLeftSection col-xs-12 col-sm-8 col-md-8">
+
+                            <!--vizyondaki filmler sayfası sol-->
+                            <div class="row">
+                                <div class="theatrePageSection">
+
+                                    <div class="theatreThisWeek">
+                                        <h4 class="text-left theatreHeader">VİZYONA YENİ GİREN FİLMLER</h4>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-1.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Geleceğe Dönüş: Bölüm II</h3>
+                                                    <h4>Back to the Future: Episode II</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-2.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                                                    <h4>The Lord of the Rings: Return of the King</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-3.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Matrix</h3>
+                                                    <h4>Matrix</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-4.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Robocop</h3>
+                                                    <h4>Robocop</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-5.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Hayalet Avcıları</h3>
+                                                    <h4>Ghostbusters</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+                            <!--google orta reklam-->
+                            <div class="row">
+                                <div id="googleMiddleAd">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                        <a href="">
+                                            <img src="img/orta-reklam.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--google orta reklam END-->
+
+                            <div class="row">
+                                <div class="theatrePageSection">
+
+                                    <div class="theatreThisWeek">
+                                        <h4 class="text-left theatreHeader">2 HAFTA ÖNCE VİZYONA GİREN FİLMLER</h4>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-1.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Geleceğe Dönüş: Bölüm II</h3>
+                                                    <h4>Back to the Future: Episode II</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-2.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                                                    <h4>The Lord of the Rings: Return of the King</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-3.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Matrix</h3>
+                                                    <h4>Matrix</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-4.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Robocop</h3>
+                                                    <h4>Robocop</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-5.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Hayalet Avcıları</h3>
+                                                    <h4>Ghostbusters</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!--google orta reklam-->
+                            <div class="row">
+                                <div id="googleMiddleAd">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                        <a href="">
+                                            <img src="img/orta-reklam.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--google orta reklam END-->
+
+                            <div class="row">
+                                <div class="theatrePageSection">
+
+                                    <div class="theatreThisWeek">
+                                        <h4 class="text-left theatreHeader">3 HAFTA ÖNCE VİZYONA GİREN FİLMLER</h4>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-1.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Geleceğe Dönüş: Bölüm II</h3>
+                                                    <h4>Back to the Future: Episode II</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-2.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                                                    <h4>The Lord of the Rings: Return of the King</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-3.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Matrix</h3>
+                                                    <h4>Matrix</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-4.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Robocop</h3>
+                                                    <h4>Robocop</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-5.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Hayalet Avcıları</h3>
+                                                    <h4>Ghostbusters</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!--google orta reklam-->
+                            <div class="row">
+                                <div id="googleMiddleAd">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                        <a href="">
+                                            <img src="img/orta-reklam.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--google orta reklam END-->
+
+                            <div class="row">
+                                <div class="theatrePageSection">
+
+                                    <div class="theatreThisWeek">
+                                        <h4 class="text-left theatreHeader">4 HAFTA ÖNCE VİZYONA GİREN FİLMLER</h4>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-1.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Geleceğe Dönüş: Bölüm II</h3>
+                                                    <h4>Back to the Future: Episode II</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-2.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                                                    <h4>The Lord of the Rings: Return of the King</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-3.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Matrix</h3>
+                                                    <h4>Matrix</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-4.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Robocop</h3>
+                                                    <h4>Robocop</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="theatreMoviesElement">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <div class="leftSection">
+                                                <img class="img-responsive" src="img/slider-5.jpg" alt=""/>
+                                                <a class="btn btn-default buttonary">FAVORİLERİME EKLE</a>
+                                                <a class="btn btn-default buttonary">BEKLENENLERE EKLE</a>
+                                            </div>
+                                        </a>
+
+                                        <a href="./vizyondaki-filmler-detay.html">
+
+                                            <div class="rightSection">
+                                                <div class="headInfoArea">
+                                                    <h3>Hayalet Avcıları</h3>
+                                                    <h4>Ghostbusters</h4>
+                                                </div>
+                                                <div class="moviePoint"><p><strong>IMDB</strong>  Puanı</p><p class="nestPoint">9.9 / 10</p></div>
+                                                <div class="detailContainer">
+                                                    <p class="left"><strong>Yapım Yılı:</strong></p><p class="right">2013</p>
+                                                    <p class="left"><strong>Gösterim Tarihi:</strong></p><p class="right">28 Şubat 2013</p>
+                                                    <p class="left"><strong>Filmin Türü:</strong></p><p class="right">Dram, Belgesel, Tarih</p>
+                                                    <p class="middle">Son iki buçuk yıldır Mısır Devrimi bitmeyen bir karmaşa olarak sürüyor. Haberlerde yalnızca en kanlı çatışmaları, seçimleri veya milyonların yürüyüş görüntülerini seyrediyoruz. Meydan, haberlerin...</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html"><i>filmin detaylarını gör</i></a>
+                                            <a href="./vizyondaki-filmler-detay.html"><i>0 yorum</i></a>
+                                        </div>
+                                        <div class="rightSection">
+                                            <a href="./vizyondaki-filmler-detay.html" class="btn btn-default press">FRAGMAN İZLE</a>
+                                            <a href="./seanslar.html"class="btn btn-default press">SEANSLAR</a>
+                                        </div>
+                                    </div>
+
+                                    <!--&lt;!&ndash;RSS&ndash;&gt;-->
+                                    <!--<div class="rssFeed"><a href=""><h4 class="text-left wifi">Bu Hafta Vizyona Giren Filmleri RSS ile takip edin</h4></a></div>-->
+                                    <!--&lt;!&ndash;RSS END&ndash;&gt;-->
+
+                                    <!--&lt;!&ndash;RSS 2&ndash;&gt;-->
+                                    <!--<div class="rssFeed"><a href=""><h4 class="text-left wifi">Vizyondaki Filmleri RSS ile takip edin</h4></a></div>-->
+                                    <!--&lt;!&ndash;RSS 2 END&ndash;&gt;-->
+
+                                </div>
+
+                            </div>
+                            <!--vizyondaki filmler sayfası sol END-->
+
+                            <!--ligatus orta reklam-->
+                            <div class="row">
+                                <div id="ligatusMiddleAd">
+                                        <a href="">
+                                            <img src="img/reklam-alt-ligatus.jpg" alt=""/>
+                                        </a>
+                                </div>
+                            </div>
+                            <!--ligatus orta reklam END-->
+
+                    </div>
+                    <!--body left section END-->
+
+
+                    <!--body right section-->
+                    <div class="bodyRightSection col-xs-12 col-sm-4 col-md-4">
+
+                        <!--google sag ilk reklam-->
+                        <div class="row">
+                            <div id="googleRightAd-1">
+                                <div>
+                                    <a href="">
+                                        <img src="img/sag-reklam.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--google sag ilk reklam END-->
+
+                        <!--fragmanlar sag taraf-->
+                        <div class="row">
+                            <div class="sliderAbsorber movieTrailersRightSection">
+
+                                <h4 class="bg-header play_button">POPÜLER FRAGMANLAR</h4>
+
+                                <div class="movieTrailersRightElementAbsorber">
+
+                                    <div class="movieTrailersRightElement">
+                                        <a class="play_button" href="./vizyondaki-filmler-detay.html">
+                                            <div class="limiter260x160" style="background-image: url('img/frag-granade-1.jpg')">
+                                                <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/frag-granade-1.jpg" alt=""/>
+                                            </div>
+
+                                            <div class="movieInformation text-center">Türkçe Altyazılı Fragman</div>
+                                            <h4>Yüzüklerin Efendisi: Kralın Dönüşü</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="movieTrailersRightElement">
+                                        <a class="play_button" href="./vizyondaki-filmler-detay.html">
+                                            <div class="limiter260x160" style="background-image: url('img/frag-granade-2.jpg')">
+                                                <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/frag-granade-2.jpg" alt=""/>
+                                            </div>
+                                            <div class="movieInformation text-center">Orijinal Fragman</div>
+                                            <h4>Geleceğe Dönüş: Bölüm II</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="movieTrailersRightElement">
+                                        <a class="play_button" href="./vizyondaki-filmler-detay.html">
+                                            <div class="limiter260x160" style="background-image: url('img/frag-granade-1.jpg')">
+                                                <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/frag-granade-1.jpg" alt=""/>
+                                            </div>
+                                            <div class="movieInformation text-center">Türkçe Altyazılı Fragman</div>
+                                            <h4>Yüzüklerin Efendisi: Kralın Dönüşü</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="movieTrailersRightElement">
+                                        <a class="play_button" href="./vizyondaki-filmler-detay.html">
+                                            <div class="limiter260x160" style="background-image: url('img/frag-granade-2.jpg')">
+                                                <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/frag-granade-2.jpg" alt=""/>
+                                            </div>
+                                            <div class="movieInformation text-center">Orijinal Fragman</div>
+                                            <h4>Geleceğe Dönüş: Bölüm II</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="continueToContents">
+                                        <a href="./fragmanlar-alt-kategori.html"><h5>Tüm fragmanlar için tıklayınız!</h5></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--fragmanlar sag taraf END-->
+
+                        <!--google sag ilk reklam-->
+                        <div class="row">
+                            <div id="googleRightAd-1">
+                                <div>
+                                    <a href="">
+                                        <img src="img/sag-reklam.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--google sag ilk reklam END-->
+
+                        <!--galeri sag taraf-->
+                        <div class="row">
+                            <div class="sliderAbsorber galleryRightSection">
+
+                                <h4 class="bg-header picture">GALERİLER</h4>
+
+                                <div class="galleryRightElementAbsorber">
+
+                                    <div class="galleryRightElement">
+                                        <a class="picture" href="./galeri-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/carliston.jpg" alt=""/>
+                                            <h4 class="text-center">2014 Oscar Törenini canlı takip edin!</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="galleryRightElement">
+                                        <a class="picture" href="./galeri-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/film-gal1.jpg" alt=""/>
+                                            <h4 class="text-center">2014 Oscar Törenini canlı takip edin!</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="galleryRightElement">
+                                        <a class="picture" href="./galeri-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/film-gal2.jpg" alt=""/>
+                                            <h4 class="text-center">2014 Oscar Törenini canlı takip edin!</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="galleryRightElement">
+                                        <a class="picture" href="./galeri-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/film-gal1.jpg" alt=""/>
+                                            <h4 class="text-center">2014 Oscar Törenini canlı takip edin!</h4>
+                                        </a>
+                                    </div>
+
+                                    <div class="continueToContents">
+                                        <a href="./galeri.html"><h5>Tüm galeriler için tıklayınız!</h5></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--galeri sag taraf END-->
+
+
+                        <!--google sag ikinci reklam-->
+                        <div class="row">
+                            <div id="googleRightAd-2">
+                                <div>
+                                    <a href="">
+                                        <img src="img/sag-reklam.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--google sag ikinci reklam END-->
+
+                        <!--comments area-->
+                        <div class="row">
+                            <div class="sliderAbsorber commentArea">
+
+                                <h4 class="bg-header conversation">YORUMLAR</h4>
+
+                                <div class="rightCommentAreaAbsorber">
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 commentRepulsar">
+
+                                        <div class="leftInfo">
+                                            <a href="./uye-detay.html">
+                                                <img class="img-responsive" src="img/user-female.jpg" alt=""/>
+                                                <h6>JetsumFlotsum</h6>
+                                            </a>
+                                        </div>
+                                        <div class="rightInfo">
+                                            <h5>The Lord of the Kings: Return of the King</h5>
+                                            <p>Bence kralın dönüşü muhteşem olmuş, bu hali çok yakışmış...</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 commentRepulsar">
+
+                                        <div class="leftInfo">
+                                            <a href="./uye-detay.html">
+                                                <img class="img-responsive" src="img/user-male.jpg" alt=""/>
+                                                <h6>JetsumFlotsum</h6>
+                                            </a>
+                                        </div>
+                                        <div class="rightInfo">
+                                            <h5>The Lord of the Kings: Return of the King</h5>
+                                            <p>Bence kralın dönüşü muhteşem olmuş, bu hali çok yakışmış...</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 commentRepulsar">
+
+                                        <div class="leftInfo">
+                                            <a href="./uye-detay.html">
+                                                <img class="img-responsive" src="img/user-female.jpg" alt=""/>
+                                                <h6>JetsumFlotsum</h6>
+                                            </a>
+                                        </div>
+                                        <div class="rightInfo">
+                                            <h5>The Lord of the Kings: Return of the King</h5>
+                                            <p>Bence kralın dönüşü muhteşem olmuş, bu hali çok yakışmış...</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 commentRepulsar">
+
+                                        <div class="leftInfo">
+                                            <a href="./uye-detay.html">
+                                                <img class="img-responsive" src="img/user-male.jpg" alt=""/>
+                                                <h6>JetsumFlotsum</h6>
+                                            </a>
+                                        </div>
+                                        <div class="rightInfo">
+                                                <h5>The Lord of the Kings: Return of the King</h5>
+                                                <p>Bence kralın dönüşü muhteşem olmuş, bu hali çok yakışmış...</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--comments area END-->
+
+                        <!--google sag ikinci reklam-->
+                        <div class="row">
+                            <div id="googleRightAd-2">
+                                <div>
+                                    <a href="">
+                                        <img src="img/sag-reklam.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--google sag ikinci reklam END-->
+
+                        <!--haberler sag taraf-->
+                        <div class="row">
+                            <div class="sliderAbsorber newsRightSection">
+
+                                <h4 class="bg-header list">HABERLER</h4>
+
+                                <div class="elementAbsorber">
+
+                                    <div class="newsRightElement">
+                                        <a href="./haberler-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/haberler-2.jpg" alt=""/>
+                                            <h4>2014 Oscar Törenini canlı takip edin!</h4>
+                                            <h5>Gecenin kazananı Yerçekimi ve 12 Yıllık Esaret oldu. 10 dalda aday gösterilen Düzenbaz ise törenden eli boş döndü! Elinde boşluk oluşan Düzenbaz, hayatını düzene koymaya karar verdi.</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="newsRightElement">
+                                        <a href="./haberler-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/haberler-3.jpg" alt=""/>
+                                            <h4>2014 Oscar Törenini canlı takip edin!</h4>
+                                            <h5>Gecenin kazananı Yerçekimi ve 12 Yıllık Esaret oldu. 10 dalda aday gösterilen Düzenbaz ise törenden eli boş döndü! Elinde boşluk oluşan Düzenbaz, hayatını düzene koymaya karar verdi.</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="newsRightElement">
+                                        <a href="./haberler-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/haberler-4.jpg" alt=""/>
+                                            <h4>2014 Oscar Törenini canlı takip edin!</h4>
+                                            <h5>Gecenin kazananı Yerçekimi ve 12 Yıllık Esaret oldu. 10 dalda aday gösterilen Düzenbaz ise törenden eli boş döndü! Elinde boşluk oluşan Düzenbaz, hayatını düzene koymaya karar verdi.</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="newsRightElement">
+                                        <a href="./haberler-detay.html">
+                                            <img class="img-responsive col-xs-12 col-sm-12 col-md-12" src="img/haberler-1.jpg" alt=""/>
+                                            <h4>2014 Oscar Törenini canlı takip edin!</h4>
+                                            <h5>Gecenin kazananı Yerçekimi ve 12 Yıllık Esaret oldu. 10 dalda aday gösterilen Düzenbaz ise törenden eli boş döndü! Elinde boşluk oluşan Düzenbaz, hayatını düzene koymaya karar verdi.</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="continueToContents">
+                                        <a href="./haberler.html"><h5>Tüm haberler için tıklayınız!</h5></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--haberler sag taraf END-->
+
+                    </div>
+
+                </div>
+                 <!--body right section-->
+
+        </div>
+        <!--body area END-->
+
+
+        <footer>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="footerLeftSection col-xs-12 col-sm-6 col-md-6">
+                        <div class="absorber">
+                            <h5 class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                SOSYAL MEDYADA TAKİP ET
+                            </h5>
+                            <ul class="socialArea list-inline col-xs-8 col-sm-10 col-md-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-2">
+                                <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                        class="facebook" href=""></a></li>
+                                <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                        class="twitter" href=""></a></li>
+                                <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                        class="google_plus" href=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+            <div class="footerRightSection col-xs-12 col-sm-6 col-md-6">
+                <div class="absorber">
+                    <a class="col-xs-5 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1 iosMobile"
+                       href="http://app.lk/AD5"><img class="img-responsive" src="img/osMobile-ios.png"></a>
+                    <a class="col-xs-5 col-sm-5 col-md-4 googlePlay" href="https://play.google.com/store/apps/details?id=com.mynet.android.sinema&feature=more_from_developer#?t=W251bGwsMSwxLDEwMiwiY29tLm15bmV0LmFuZHJvaWQuc2luZW1hIl0."><img class="img-responsive"
+                                                                                  src="img/osMobile-android.png"></a>
+                    <h4 class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-1 text-right">
+                        MYNET<br>SİNEMA<br>MOBİLDE
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container infoFooter">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted text-left"> Mynet Sinema, <strong>vizyondaki filmler</strong> hakkında detaylı bilgi edinebileceğiz, filmlerin <strong>seans</strong> ve gösterimde olduğu <strong>salon bilgileri</strong>ni kolayca öğrenebileceğiniz, güncel haberleri takip edebileceğiz, kullanıcıların içerik paylaşabildiği kapsamlı bir <strong>sinema</strong> sitesidir.</p>
+            </div>
+        </div>
+        <ul class="list-inline text-center mainFooterNav">
+            <li><a title="Anasayfa" href="http://www.mynet.com">Anasayfa</a></li>
+            <li><a title="Arama" href="http://arama.mynet.com">Arama</a></li>
+            <li><a title="Astrtoloji" href="http://kadin.mynet.com/burclar-astroloji.html">Astroloji</a></li>
+            <li><a title="Bilenkazanır" href="http://bilenkazanir.mynet.com">Bilen Kazanır</a></li>
+            <li><a title="Cevaplar" href="http://cevaplar.mynet.com/">Cevaplar</a></li>
+            <li><a title="Email" href="http://email.mynet.com">Email</a></li>
+            <li><a title="Askmen" href="http://askmen.mynet.com">Erkek</a></li>
+            <li><a title="Fırsat Sitesi" href="http://fesmekan.mynet.com/firsat/">Fırsat Sitesi</a></li>
+            <li><a title="Finans" href="http://finans.mynet.com">Finans</a></li>
+            <li><a title="Foto" href="http://foto.aktuel.mynet.com">Foto</a></li>
+            <li><a title="Galeri" href="http://aktuel.mynet.com/galeri/">Galeri</a></li>
+            <li><a title="Gazeteler" href="http://haber.mynet.com/gazeteler/">Gazeteler</a></li>
+            <li><a title="Haberler" href="http://haber.mynet.com">Haberler</a></li>
+            <li><a title="Havadurumu" href="http://www.mynet.com/havadurumu/">Hava Durumu</a></li>
+            <li><a title="İlan" href="http://ilan.mynet.com">İlan</a></li>
+            <li><a title="Kadın" href="http://kadin.mynet.com">Kadın</a></li>
+            <li><a title="Şehir Rehberi" href="http://fesmekan.mynet.com">Şehir Rehberi</a></li>
+            <li><a title="Kobi" href="http://kobi.mynet.com">KOBİ</a></li>
+            <li><a title="Magazin" href="http://www.mynet.com/magazin">Magazin</a></li>
+            <li><a title="Oyun Oyna" href="http://oyun.mynet.com/oyunlar">Oyun Oyna</a></li>
+            <li><a title="Mobil" href="http://mobil.mynet.com">Mobil</a></li>
+            <li><a title="Nasıl Tv" href="http://www.nasil.tv">Nasıl Tv</a></li>
+            <li><a title="Oyun" href="http://oyun.mynet.com">Oyun</a></li>
+            <li><a title="Promail" href="http://promail.mynet.com">Promail</a></li>
+            <li><a title="Proservis" href="http://proservis.mynet.com">Proservis</a></li>
+            <li><a title="Oyunlar" href="http://oyun.mynet.com/oyunlar">Oyunlar</a></li>
+            <li><a title="Rss" href="http://www.mynet.com/rss.html">RSS</a></li>
+            <li><a href="http://sebastiyan.mynet.com/" title="Dizi">Dizi izle</a></li>
+            <li><a title="Sinema" href="http://sinema.mynet.com">Sinema</a></li>
+        </ul>
+
+                <ul class="list-inline text-center sideFooterNav">
+                    <li><a href="http://www.mynet.com/iletisim/" title="İletişim" class="noBac" rel="nofollow">İletişim</a></li>
+                    <li><a href="http://www.mynet.com/kurumsal/" title="Kurumsal" rel="nofollow">Kurumsal</a></li>
+                    <li><a href="http://yardim.mynet.com/yardim/" title="Yardım" rel="nofollow">Yardım</a></li>
+                    <li><a href="http://uyeler.mynet.com" title="Üyelik" rel="nofollow">Üyelik</a></li>
+                    <li><a href="http://www.mynet.com/siteHaritasi.html" title="Site Haritası" rel="nofollow">Site Haritası</a></li>
+                    <p class="text-center">Copyright © MYNET A.Ş. Telif Hakları MYNET A.Ş.'ye Aittir</p>
+                </ul>
+
+            </div>
+
+        </footer>
+
+
+
+</body>
+</html>

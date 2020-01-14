@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
         private alertService: AlertService,
         public translate: TranslateService,
         public languageService: LanguageService,
-    ) {}
+    ) { }
 
     ngOnInit(): void {
         this.projectService.getProjects().subscribe(
@@ -63,9 +63,7 @@ export class AppComponent implements OnInit {
                 this.isLoaded = true;
             },
             (error: Error) => {
-                this.alertService.error(
-                    `There was an error while getting projects: ${error.message}`,
-                );
+                this.alertService.error(`There was an error while getting projects: ${error.message}`);
             },
         );
 
@@ -81,9 +79,7 @@ export class AppComponent implements OnInit {
             (item: WorkType): Subscription => {
                 return this.translate
                     .stream('main.menu-elements.' + item.title)
-                    .subscribe(
-                        (translatedText) => (this.workTypes[item.id].title = translatedText),
-                    );
+                    .subscribe((translatedText) => (this.workTypes[item.id].title = translatedText));
             },
         );
     }
@@ -91,9 +87,7 @@ export class AppComponent implements OnInit {
     filterIsotope(filterName: string): void {
         this.isGraphicDesign = false;
 
-        this.defaultIsotopeOptions = {
-            filter: filterName,
-        };
+        this.defaultIsotopeOptions = { filter: filterName };
 
         if (filterName.length > 1) {
             this.selectedItem = filterName.substring(1);
@@ -108,9 +102,8 @@ export class AppComponent implements OnInit {
     openModal($event: any, imageLink: string, projectName: string): void {
         event.preventDefault();
 
-        this.modalContainer.setContent(
-            `<div title="${projectName}" class="project-image" style="background: url(${imageLink})"></div>`,
-        );
+        // tslint:disable-next-line:max-line-length
+        this.modalContainer.setContent(`<div title='${projectName}' class='project-image' style='background: url(${imageLink})'></div>`);
 
         this.modalContainer.open();
     }

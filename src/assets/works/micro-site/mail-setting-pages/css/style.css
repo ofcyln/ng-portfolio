@@ -1,0 +1,50 @@
+*{-webkit-font-smoothing: antialiased;-moz-font-smoothing: antialiased;o-font-smoothing: antialiased;font-smoothing: antialiased;outline:none}
+body{background: rgb(250, 249, 249);font-family: 'Gotham Narrow SSm', tahoma, Arial, Helvetica, sans-serif;}
+.container{max-width:960px}
+.container.unSubscribe{max-width: 640px}
+
+.recipients .panel-body{overflow:auto;max-height:200px}
+.recipients .recipient{display:block;float:left;width:140px;margin:0 5px 5px 0;font-size:.85em;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.recipients .recipient img{float:left;height:28px;margin-right:5px}
+.recipients .recipient .email{font-size:.9em;color:#999;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
+.welcomeAreaAbs,.formAbs{overflow: hidden;position: relative;z-index: 2;}
+.mailSubscribeAbs{position:relative;z-index: 6;}
+.welcomeAreaAbs h1{font-size: xx-large;color: #56697B;}
+.welcomeAreaAbs h1 strong{color: #657C90;}
+.selectionAbs{display: inline-block;width: 100%;position: relative;z-index:3;}
+.selectionAbs h2{margin:0 0 15px;color:#7C8E9D;font-size: large;font-weight: 700;}
+.glyphicons{padding: 0 15px 0 10px;display: block;width: 20px;height: 20px;float: left;margin-top: -5px;}
+.glyphicons:before{color:#d0d0d0}
+.glyphicons.check:before{color:#428BCA}
+.successArea.welcomeAreaAbs{overflow: visible}
+.successArea .glyphicons:before{color:#71BB72;font-size: xx-large}
+.btn-group.unSubscribeStabilizer{display: block;margin-right: 10px;float: left;}
+.btn.btn-sm.btn-default{float: left;height: 30px;width: 100%;padding-left: 10px;display: block;margin:0 3px 3px 0;text-align: left;}
+.btn.btn-sm.btn-default.firstChecker{height:34px}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{background-color: transparent}
+.dropdown-menu>li>a{display: block;width: 100%;height: 100%;float: left;}
+.panel-heading{padding:0;margin:0 15px 15px 0;display: block;float: left;}
+.regularSelection{display: block;float: left;}
+.dropdown-menu > li > label:hover, .dropdown-menu > li > label:focus{text-decoration: none;color: #fff;background-color: #9FB1C0;}
+.successMessage{color: #44A834;}
+.approveArea{clear: both;padding: 0;}
+.approveArea input[type=checkbox]{float: left;margin-right: 5px;}
+.approveArea label{max-width: 92%;}
+.btn .caret{margin-left: 10px;}
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    }
+@-webkit-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    }
+@-ms-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    }
+@-moz-keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    }
+.animate-area{width: 100%;height: 177px;opacity: 0.1;filter:alpha(opacity=10);background-image: url("../img/envelopes.png");background-position: 0px 0px;background-repeat: repeat-x;animation: animatedBackground 40s linear infinite;-ms-animation: animatedBackground 40s linear infinite;-moz-animation: animatedBackground 40s linear infinite;-webkit-animation: animatedBackground 120s linear infinite;position: absolute;left:0;bottom:0;z-index: 1}

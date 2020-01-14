@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Conv_MyNetSemBold';
+	src: url('MyNetSemBold.eot');
+	src: local('☺'), url('MyNetSemBold.woff') format('woff'), url('MyNetSemBold.ttf') format('truetype'), url('MyNetSemBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

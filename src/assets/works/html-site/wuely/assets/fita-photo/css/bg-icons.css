@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.big-image-bg{
+	background-image:url(../img/first-screen.jpg);
+}
+.big-image-bg:after{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	background: -moz-linear-gradient(top,  rgba(43,49,56,0.6) 9%, rgba(43,49,56,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,rgba(43,49,56,0.6)), color-stop(100%,rgba(43,49,56,0)));
+	background: -webkit-linear-gradient(top,  rgba(43,49,56,0.6) 9%,rgba(43,49,56,0) 100%);
+	background: -o-linear-gradient(top,  rgba(43,49,56,0.6) 9%,rgba(43,49,56,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(43,49,56,0.6) 9%,rgba(43,49,56,0) 100%);
+	background: linear-gradient(to bottom,  rgba(43,49,56,0.6) 9%,rgba(43,49,56,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#992b3138', endColorstr='#002b3138',GradientType=0 );
+}
+.search-icon{
+	background-image:url(../img/search-128.png);
+}
+.ico-view{
+	background-image:url(../img/view-128.png);
+}
+.ico-like{
+	background-image:url(../img/like-128.png);
+}
+.ico-comment{
+	background-image:url(../img/comment-128.png);
+}

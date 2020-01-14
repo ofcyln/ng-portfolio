@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinema Mobil Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://s.mynet.com/iphone-css/i-reset.css" type="text/css">
+    <link rel="stylesheet" href="http://s.mynet.com/front/fonts/gotham-fonts.css" type="text/css">
+    <link rel="stylesheet" href="http://s.mynet.com/iphone-css/sinema-mobile-registration-form.css">
+    <script src="http://s.mynet.com/front/js/jquery-1.11.js"></script>
+    <script src="http://s.mynet.com/front/js/css-browser-selector.js"></script>
+</head>
+<body>
+
+    <div class="form-wrapper">
+
+        <form action="" method="" novalidate="" class="fcorn-register" id="sinemaMobileForm">
+
+            <div class="oServiceLogo clr">
+                <a href="/"><img src="http://img3.mynet.com/myheader/my-logo.gif"><span class="oSinema">Mynet Sinema</span></a>
+                <h1>Türkiye'nin Sinema Rehberi</h1>
+            </div>
+
+            <p class="register-info">Kampanyaya katılabilmek için lütfen aşağıdaki formu EKSİKSİZ doldurunuz!</p>
+
+            <div class="fullAreaAbsorber">
+                <p class="halfArea nameArea"><input type="text" name="user_name" id="facebookCampaignname" for="facebookCampaignname" placeholder="Adınızı yazınız" ></p>
+                <p class="halfArea surnameArea"><input type="text" name="user_surname" id="facebookCampaignsurname" for="facebookCampaignsurname" placeholder="Soyadınızı yazınız"></p>
+            </div>
+
+            <p class="emailArea">
+                <input type="email" for="facebookCampaignemail" id="facebookCampaignemail" name="user_email" placeholder="Email adresinizi yazınız">
+            </p>
+
+            <div class="fullAreaAbsorber">
+                <p class="fullArea phoneArea"><input type="text" for="facebookCampaigntelephone" id="facebookCampaigntelephone" name="user_telephone" placeholder="Size ulaşabileceğimiz telefon numarası yazınız"></p>
+            </div>
+
+            <div class="fullAreaAbsorber">
+                <p class="fullArea addressArea"><input type="text" for="facebookCampaignaddress" id="facebookCampaignaddress" name="user_address" placeholder="Hediyenizin gönderileceği adresi yazınız"></p>
+            </div>
+
+            <div class="fullAreaAbsorber">
+                <p class="fullArea answerArea"><input type="text" for="facebookCampaignanswer" id="facebookCampaignanswer" name="user_address" placeholder="Sorunun Cevabını yazınız"></p>
+            </div>
+
+            <p class="register-submit"><input type="submit" id="sendButton" value="Formu Gönder"></p>
+
+            <div class="campaignSuccess">Kayıt işleminiz başarıyla gerçekleşmiştir. <br> Teşekkür ederiz.</div>
+
+        </form>
+    </div>
+
+<!--[if lt IE 10]>
+<script src="http://s.mynet.com/front/js/jquery.placeholder.min.js"></script>
+<script type="text/javascript">
+    jQuery('input, textarea').placeholder();
+</script>
+<![endif]-->
+
+    <script>
+        jQuery(document).ready(function(){
+
+//alert("1");
+
+            $('#sinemaMobileForm').submit(function( event ) {
+
+//alert("2");
+                event.preventDefault();
+
+                var name = jQuery('#facebookCampaignname');
+                nameVal = jQuery.trim(name.val());
+                var nameregex = /^[a-z][a-z\s-]+$/i;
+                if(nameVal == "" || nameVal.length < 2){  //|| name.search(nameregex) == 0
+                    name.focus().addClass('error');
+                    return false;
+                }
+                name.removeClass('error');
+
+                var surname = jQuery('#facebookCampaignsurname');
+                surnameVal = jQuery.trim(surname.val());
+                if(surnameVal == "" || surnameVal.length < 2 ){ // || document.getElementById('surname').value.search(nameregex) == 0  ||  || name.search(nameregex)
+                    surname.focus().addClass('error');
+                    return false;
+                }
+                surname.removeClass('error');
+
+                var email = jQuery('#facebookCampaignemail');
+                emailVal = jQuery.trim(email.val());
+                //var emailregex = /^([a-zA-Z0-9])(([a-zA-Z0-9])*([\._-])?([a-zA-Z0-9]))*@(([a-zA-Z0-9\-])+(\.))+([a-zA-Z]{2,4})+$/
+                if(emailVal == "" || emailVal.length < 2 ){
+                    email.focus().addClass('error');
+                    return false;
+                }
+                email.removeClass('error');
+
+                var tel = jQuery('#facebookCampaigntelephone');
+                telVal = jQuery.trim(tel.val());
+                //var pregex= /^([0-9])*([\+|\-])*([0-9])+$/
+                if(telVal == "" || telVal.length < 2 ){
+                    tel.focus().addClass('error');
+                    return false;
+                }
+                tel.removeClass('error');
+
+                var Kampaddress = jQuery('#facebookCampaignaddress');
+                addressVal = jQuery.trim(Kampaddress.val());
+                if(addressVal == "" || addressVal.length < 7){
+                    Kampaddress.focus().addClass('error');
+                    return false;
+                }
+                Kampaddress.removeClass('error');
+
+
+                var Kamanswer = jQuery('#facebookCampaignanswer');
+                answerVal = jQuery.trim(Kamanswer.val());
+                if(answerVal == "" || answerVal.length < 2){
+                    Kamanswer.focus().addClass('error');
+                    return false;
+                }
+                Kamanswer.removeClass('error');
+
+
+                var guvenlikResmi = jQuery('#guvenlikresmi');
+                guvenlikResmiVal = jQuery.trim(guvenlikResmi.val());
+                if(guvenlikResmiVal == "" || guvenlikResmiVal.length < 2){
+                    guvenlikResmiVal.focus().addClass('error');
+                    return false;
+                }
+                Kamanswer.removeClass('error');
+//alert(guvenlikResmiVal);
+
+                $.post( "/kampanyaform.php", { name: nameVal, surname: surnameVal, email: emailVal, tel: telVal, address: addressVal, answer: answerVal, guvenlikResmi: guvenlikResmiVal, formPosted: "1" })
+                        .done(function( data ) {
+                            data = jQuery.trim(data);
+                            if(data=="okdir"){
+                                //alert("Kayıt işleminiz başarıyla gerçekleşmiştir. \n Teşekkür ederiz..");
+                                jQuery('.fcorn-register div').css('opacity','0');
+                                jQuery('.campaignSuccess').css('display','block');
+
+                            } else if(data=='dublicate') {
+                                alert("Bu email adresi ile daha önce kampanyaya katıldınız.");
+                            } else if(data=='hatali_captcha') {
+                                alert("Güvenlik Resmini hatalı girdiniz. Sayfayı yenileyiniz.");
+                            } else {
+                                alert("hata!- bir süre sonra tekrar deneyiniz." + data);
+                            }
+                        });
+
+
+            });
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mynet Sinema - Film Galerisi</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetLight/fonts.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetBold/fonts.css"/>
+    <link rel="stylesheet" href="fonts/mynetFonts/mynetRegular/fonts.css"/>
+    <link rel="stylesheet" href="fonts/glyphicons/glyphicons.css"/>
+    <link rel="stylesheet" href="fonts/glyphicons/glyphicons-social.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/custom.scrollbar.css"/>
+    <link rel="stylesheet" href="colorbox/colorbox.css"/>
+    <script src="js/jquery-1.11.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/css-browser-selector.js"></script>
+    <script src="js/mCustomScrollbar.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        jQuery(window).load(function() {
+            /*temsili search*/
+            jQuery('.searchButtonArea').click(function () {
+                // e.preventDefault();
+                jQuery('.nav.navbar-nav.navbar-right').toggle('fast');
+            });
+
+            jQuery(function() {
+                jQuery(".closeResults").hide();
+                jQuery(".form-control").keypress(function(){
+                    jQuery(".closeResults").toggle('fast');
+                });
+            });
+            /*temsili search END*/
+        });
+
+    </script>
+
+
+</head>
+<body class="galleryDetails photoAnalysis">
+
+<header>
+
+    <div class="container headerAdArea">
+        <div class="row">
+            <a class="navbar-brand" href="./"><span></span>
+
+                <p>Türkiye'nin Sinema Rehberi</p></a>
+
+            <div id="adAreaHeader">
+                <a href="./">
+                    <img src="img/header-reklam.jpg" alt=""/>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container headerCustom">
+        <div class="row">
+
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="tablet-size-border">
+                            <ul class="nav navbar-nav">
+                                <li class="first-element"><a class="glyphicons home" href="./"></a></li>
+                                <li><a href="./vizyondaki-filmler.html">VİZYONDAKİ FİLMLER</a></li>
+                                <li><a href="./sinemalar.html">SİNEMALAR</a></li>
+                                <li><a href="./fragmanlar.html">FRAGMANLAR</a></li>
+                                <li><a href="./vizyona-girecek-filmler.html">VİZYONA GİRECEK FİLMLER</a></li>
+                                <li class="active"><a href="./galeri.html">GALERİ</a></li>
+                                <li><a href="./haberler.html">HABERLER</a></li>
+                                <li><a href="./film-arsivi.html">FİLM ARŞİVİ</a></li>
+								<li><a href="./uye-detay.html">PROFİLİM</a></li>
+                                <li><a href="./yardim.html">YARDIM</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="searchButtonArea search">
+
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Film, Sinema, Sanatçı Ara">
+                                </div>
+                            </form>
+                            <!--search results-->
+                            <div class="closeResults">
+                                <ul>
+                                    <li id="element-1">
+                                        <a href="./vizyondaki-filmler-detay.html"><img src="http://tr.web.img1.acsta.net/c_75_100/pictures/14/04/07/16/24/391875.jpg">
+                                                <span class="text">
+                                                    <span class="title">İnanılmaz Örümcek-Adam 2</span>
+                                                    <span class="info blue">The Amazing Spider-Man 2</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2013</span>
+                                                </span>
+                                        </a>
+                                    </li>
+                                    <li id="element-2">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <img src="http://tr.web.img1.acsta.net/c_75_100/medias/nmedia/18/85/31/56/20125440.jpg">
+                                                <span class="text">
+                                                    <span class="title">İnanılmaz Örümcek Adam</span>
+                                                    <span class="info blue">The Amazing Spider-Man</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2012</span>
+                                                </span>
+                                        </a>
+                                    </li>
+                                    <li id="element-3">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <img src="http://tr.web.img3.acsta.net/c_75_100/pictures/bzp/03/118961.jpg">
+                                                <span class="text">
+                                                    <span class="title">Spiderwick Günceleri</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2011</span>
+                                                </span>
+                                        </a>
+                                    </li>
+                                    <li id="element-4">
+                                        <a href="./vizyondaki-filmler-detay.html">
+                                            <img src="http://tr.web.img3.acsta.net/c_75_100/pictures/bzp/05/205632.jpg">
+                                                <span class="text"><span class="title">Camel Spiders</span>
+                                                    <span class="info blue">(Camel Spiders)</span>
+                                                    <span class="info lightGrey">Aksiyon, Gerilim, Komedi, Aşk</span>
+                                                    <span class="info lightGrey">2010</span>
+                                                </span>
+                                        </a>
+                                    </li>
+                                    <li class="submit">
+                                        <a href="./arama-sayfasi.html" class="link_arrow_r"><strong>spid</strong> için tüm sonuçlar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--search results END-->
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+
+                </div>
+            </div>
+        </header>
+
+        <!--breadcrumb-->
+        <div class="container breadCrumb">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="./">Sinema</a></li>
+                    <li><a href="./galeri.html">Galeri</a></li>
+                    <li class="active">Geleceğe Dönüş: Bölüm II</li>
+                </ol>
+            </div>
+        </div>
+        <!--breadcrumb END-->
+
+        <!--body area-->
+        <div class="container">
+
+            <div class="row mainRow">
+
+                <div class="galleryDetailsAbsorber col-xs-12 col-md-12 col-sm-12">
+
+
+                    <div class="leftImageShowArea col-xs-12 col-md-7 col-sm-7">
+
+                        <h4 class="text-left bg-header">Geleceğe Dönüş: Bölüm II - Galeri</h4>
+                        <!--pagination-->
+
+                        <!--galerilerde maksimum 7 adet pagination görünür olmalı, 7.ye tıkladığında 7-14 arası gelmeli, hurriyet teki gibi-->
+
+                        <div class="row">
+
+                            <div class="paginationAbsorber">
+
+
+                                <div class="paginationArea">
+                                    <ul class="pagination pagination-sm">
+                                        <li class="disabled"><a href="#"><</a></li>
+                                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">6</a></li>
+                                        <li><a href="#">7</a></li>
+                                        <li class="last"><a href="#">></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--pagination END-->
+                    <div class="leftGalleryArea">
+
+                        <!--bu resmi büyütmesi için koyulan colorbox-->
+                        <a href="https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61a1e4b0d911b449aab0/1336770614997/1000w/behind_the_scenes_20.jpeg" class="bigPreview eye_open"></a>
+
+                        <!--buna tıkladığı zaman next functionu entegre edilmelidir-->
+                        <a href="" class="galleryClickable"><img class="img-responsive" src="https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61a1e4b0d911b449aab0/1336770614997/1000w/behind_the_scenes_20.jpeg" alt=""/></a>
+
+
+                        <div class="shareContainer">
+                            <a onclick="return fbs_click()" title="Facebook'ta paylaş" href="" alt="Facebook'ta paylaş" class="btn btn-default facebook"></a>
+                            <a href="" title="Twitter'da paylaş" href="" alt="Twitter'da paylaş" data-lang="tr" class="btn btn-default twitter"></a>
+                            <a href="" title="GooglePlus'da paylaş" href="" alt="GooglePlus'da paylaş" data-lang="tr" class="btn btn-default google_plus"></a>
+                            <script> if( /webOS|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {document.write('<a href="whatsapp://send?text= - " data-lang="tr" class="btn btn-default whatsapp"></span></a>');}</script>
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                    <div class="rightImageDetailArea col-xs-12 col-md-5 col-sm-5">
+
+                        <a href="./vizyondaki-filmler-detay.html" class="text-right bg-header backtotheMovie buttonary">"GELECEĞE DÖNÜŞ II" FİLMİNE GERİ DÖN</a>
+
+
+                        <div class="row">
+                            <div id="googleRightAd-1">
+                                <div>
+                                    <a href="">
+                                        <img src="img/sag-reklam.jpg" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--google sag ilk reklam END-->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+    <!--body area END-->
+
+
+
+<footer>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="footerLeftSection col-xs-12 col-sm-6 col-md-6">
+                <div class="absorber">
+                    <h5 class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        SOSYAL MEDYADA TAKİP ET
+                    </h5>
+                    <ul class="socialArea list-inline col-xs-8 col-sm-10 col-md-10 col-xs-offset-2 col-sm-offset-1 col-md-offset-2">
+                        <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                class="facebook" href=""></a></li>
+                        <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                class="twitter" href=""></a></li>
+                        <li class="col-xs-2 col-xs-offset-1 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1"><a
+                                class="google_plus" href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footerRightSection col-xs-12 col-sm-6 col-md-6">
+                <div class="absorber">
+                    <a class="col-xs-5 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1 iosMobile"
+                       href="http://app.lk/AD5"><img class="img-responsive" src="img/osMobile-ios.png"></a>
+                    <a class="col-xs-5 col-sm-5 col-md-4 googlePlay" href="https://play.google.com/store/apps/details?id=com.mynet.android.sinema&feature=more_from_developer#?t=W251bGwsMSwxLDEwMiwiY29tLm15bmV0LmFuZHJvaWQuc2luZW1hIl0."><img class="img-responsive"
+                                                                                  src="img/osMobile-android.png"></a>
+                    <h4 class="col-xs-3 col-xs-offset-1 col-sm-3 col-sm-offset-1 col-md-1 text-right">
+                        MYNET<br>SİNEMA<br>MOBİLDE
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container infoFooter">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted text-left"> Mynet Sinema, <strong>vizyondaki filmler</strong> hakkında detaylı bilgi edinebileceğiz, filmlerin <strong>seans</strong> ve gösterimde olduğu <strong>salon bilgileri</strong>ni kolayca öğrenebileceğiniz, güncel haberleri takip edebileceğiz, kullanıcıların içerik paylaşabildiği kapsamlı bir <strong>sinema</strong> sitesidir.</p>
+            </div>
+        </div>
+        <ul class="list-inline text-center mainFooterNav">
+            <li><a title="Anasayfa" href="http://www.mynet.com">Anasayfa</a></li>
+            <li><a title="Arama" href="http://arama.mynet.com">Arama</a></li>
+            <li><a title="Astrtoloji" href="http://kadin.mynet.com/burclar-astroloji.html">Astroloji</a></li>
+            <li><a title="Bilenkazanır" href="http://bilenkazanir.mynet.com">Bilen Kazanır</a></li>
+            <li><a title="Cevaplar" href="http://cevaplar.mynet.com/">Cevaplar</a></li>
+            <li><a title="Email" href="http://email.mynet.com">Email</a></li>
+            <li><a title="Askmen" href="http://askmen.mynet.com">Erkek</a></li>
+            <li><a title="Fırsat Sitesi" href="http://fesmekan.mynet.com/firsat/">Fırsat Sitesi</a></li>
+            <li><a title="Finans" href="http://finans.mynet.com">Finans</a></li>
+            <li><a title="Foto" href="http://foto.aktuel.mynet.com">Foto</a></li>
+            <li><a title="Galeri" href="http://aktuel.mynet.com/galeri/">Galeri</a></li>
+            <li><a title="Gazeteler" href="http://haber.mynet.com/gazeteler/">Gazeteler</a></li>
+            <li><a title="Haberler" href="http://haber.mynet.com">Haberler</a></li>
+            <li><a title="Havadurumu" href="http://www.mynet.com/havadurumu/">Hava Durumu</a></li>
+            <li><a title="İlan" href="http://ilan.mynet.com">İlan</a></li>
+            <li><a title="Kadın" href="http://kadin.mynet.com">Kadın</a></li>
+            <li><a title="Şehir Rehberi" href="http://fesmekan.mynet.com">Şehir Rehberi</a></li>
+            <li><a title="Kobi" href="http://kobi.mynet.com">KOBİ</a></li>
+            <li><a title="Magazin" href="http://www.mynet.com/magazin">Magazin</a></li>
+            <li><a title="Oyun Oyna" href="http://oyun.mynet.com/oyunlar">Oyun Oyna</a></li>
+            <li><a title="Mobil" href="http://mobil.mynet.com">Mobil</a></li>
+            <li><a title="Nasıl Tv" href="http://www.nasil.tv">Nasıl Tv</a></li>
+            <li><a title="Oyun" href="http://oyun.mynet.com">Oyun</a></li>
+            <li><a title="Promail" href="http://promail.mynet.com">Promail</a></li>
+            <li><a title="Proservis" href="http://proservis.mynet.com">Proservis</a></li>
+            <li><a title="Oyunlar" href="http://oyun.mynet.com/oyunlar">Oyunlar</a></li>
+            <li><a title="Rss" href="http://www.mynet.com/rss.html">RSS</a></li>
+            <li><a href="http://sebastiyan.mynet.com/" title="Dizi">Dizi izle</a></li>
+            <li><a title="Sinema" href="http://sinema.mynet.com">Sinema</a></li>
+        </ul>
+
+        <ul class="list-inline text-center sideFooterNav">
+            <li><a href="http://www.mynet.com/iletisim/" title="İletişim" class="noBac" rel="nofollow">İletişim</a></li>
+            <li><a href="http://www.mynet.com/kurumsal/" title="Kurumsal" rel="nofollow">Kurumsal</a></li>
+            <li><a href="http://yardim.mynet.com/yardim/" title="Yardım" rel="nofollow">Yardım</a></li>
+            <li><a href="http://uyeler.mynet.com" title="Üyelik" rel="nofollow">Üyelik</a></li>
+            <li><a href="http://www.mynet.com/siteHaritasi.html" title="Site Haritası" rel="nofollow">Site Haritası</a></li>
+            <p class="text-center">Copyright © MYNET A.Ş. Telif Hakları MYNET A.Ş.'ye Aittir</p>
+        </ul>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

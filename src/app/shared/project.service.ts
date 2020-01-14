@@ -16,7 +16,7 @@ export interface Project {
     providedIn: 'root',
 })
 export class ProjectService {
-    constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient) { }
 
     public getProjects(): Observable<Project[]> {
         return this.http.get<Project[]>(environment.projectsUrl);
