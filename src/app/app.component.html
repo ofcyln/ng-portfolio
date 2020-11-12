@@ -5,76 +5,18 @@
         <app-loading></app-loading>
     </div>
 
-    <article class="row">
-        <div class="col no--padding">
-            <app-header></app-header>
-        </div>
-    </article>
-
     <article class="row app-content">
-        <app-alert></app-alert>
+        <embed src="/assets/pdf/osman-fikret-ceylan-resume.pdf" type="application/pdf" />
 
-        <main class="col no-padding areaAbsorber portfolio">
-            <router-outlet></router-outlet>
+        <object data="/assets/pdf/osman-fikret-ceylan-resume.pdf" type="application/pdf">
+            <p>It appears you don't have a PDF plugin for this browser.
+                No problem, you can still <a href="/assets/pdf/osman-fikret-ceylan-resume.pdf">download the PDF file.</a></p>
+        </object>
 
-            <section class="content">
-                <article class="info-container">
-                    <h2>
-                        <small translate>main.head.small-title</small>
-                        <br> Osman Fikret Ceylan
-                    </h2>
-
-                    <div class="margin-top-md">
-                        <p class="no--margin" translate>main.head.info</p>
-                        <p translate>main.head.sub-info</p>
-                    </div>
-                </article>
-
-                <article class="menu-container">
-                    <button
-                        *ngFor="let filter of filters; let i = index"
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === filter.className}"
-                        (click)="filterIsotope('.' + filter.className)">
-                        {{ workTypes[i].title }}
-                    </button>
-
-                    <button
-                        class="menu-element"
-                        [ngClass]="{'active': selectedItem === '*'}"
-                        (click)="filterIsotope('*')">
-                        {{ workTypes[workTypes.length-1].title }}
-                    </button>
-                </article>
-
-                <article class="portfolio-grid">
-                    <isotope-grid
-                        [options]="defaultIsotopeOptions"
-                        class="portfolio-wrap row">
-                        <isotope-item
-                            *ngFor="let project of projects"
-                            [ngClass]="project.type"
-                            class="item-absorber col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                            <a
-                                class="item-link"
-                                [href]="project.urlLink"
-                                target="_blank"
-                                (click)="isGraphicDesign ? openModal($event, project.urlLink, project.nameEN) : true"
-                                rel="noopener">
-                                <img
-                                    class="img-area" [src]="project.imageLink"
-                                    [alt]="project.nameEN"/>
-
-                                <div class="item-paragraph">
-                                    <p>
-                                        {{ languageService.languagePreference === 'en' ? project.nameEN : project.nameTR }}
-                                    </p>
-                                </div>
-                            </a>
-                        </isotope-item>
-                    </isotope-grid>
-                </article>
-            </section>
-        </main>
+        <iframe src="/assets/pdf/osman-fikret-ceylan-resume.pdf"
+                style="position: absolute;transform: translateX(0) translateY(0);border: 0;"
+                width="100%"
+                height="100%"></iframe>
     </article>
+
 </section>
